@@ -1,0 +1,6 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_ubc_paises","ubc_paises","model_ubc_paises","base.group_user",1,1,1,1
+"access_ubc_estados","ubc_estados","model_ubc_estados","base.group_user",1,1,1,1
+"access_ubc_continentes","ubc_continentes","model_ubc_continentes","base.group_user",1,1,1,1
+"access_ubc_municipios","ubc_municipios","model_ubc_municipios","base.group_user",1,1,1,1
+"access_ubc_parroquias","ubc_parroquias","model_ubc_parroquias","base.group_user",1,1,1,1

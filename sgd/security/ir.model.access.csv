@@ -1,0 +1,12 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_documento","documento","model_documento","base.group_user",1,1,1,1
+"access_carpeta","carpeta","model_carpeta","base.group_user",1,1,1,1
+"access_vagon","vagon","model_vagon","base.group_user",1,1,1,1
+"access_modulo","modulo","model_modulo","base.group_user",1,1,1,1
+"access_peldano","peldano","model_peldano","base.group_user",1,1,1,1
+"access_caja","caja","model_caja","base.group_user",1,1,1,1
+"access_gerencia","gerencia","model_gerencia","base.group_user",1,1,1,1
+"access_organismo","organismo","model_organismo","base.group_user",1,1,1,1
+"access_tipologia","tipologia","model_tipologia","base.group_user",1,1,1,1
+"access_productor","productor","model_productor","base.group_user",1,1,1,1
+"access_materia","materia","model_materia","base.group_user",1,1,1,1

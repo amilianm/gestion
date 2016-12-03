@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creado por BachacoVE-->
+<!--Friday 22nd of January 2016 12:01:01 PM-->
+<openerp>
+<data>
+	<record id="ues_1" model="ubc_estados">
+		<field name="id">1</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Distrito Capital</field>
+		<field name="abreviatura">DTF</field>
+		<field name="capital">Caracas</field>
+		<field name="poblacion">2084074</field>
+		<field name="latitud">10°29′17″N</field>
+		<field name="longitud">66°52′45″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_2" model="ubc_estados">
+		<field name="id">2</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Amazonas</field>
+		<field name="abreviatura">AMZ</field>
+		<field name="capital">Puerto Ayacucho</field>
+		<field name="poblacion">182908</field>
+		<field name="latitud">05°39′50″N</field>
+		<field name="longitud">67°37′25″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_3" model="ubc_estados">
+		<field name="id">3</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Anzoátegui</field>
+		<field name="abreviatura">ANZ</field>
+		<field name="capital">Barcelona</field>
+		<field name="poblacion">1682206</field>
+		<field name="latitud">10°08′00″N</field>
+		<field name="longitud">64°42′00″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_4" model="ubc_estados">
+		<field name="id">4</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Apure</field>
+		<field name="abreviatura">APU</field>
+		<field name="capital">San Fernando de Apure</field>
+		<field name="poblacion">581312</field>
+		<field name="latitud">07°53′16″N</field>
+		<field name="longitud">67°28′20″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_5" model="ubc_estados">
+		<field name="id">5</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Aragua</field>
+		<field name="abreviatura">ARA</field>
+		<field name="capital">Maracay</field>
+		<field name="poblacion">1822424</field>
+		<field name="latitud">10°14′49″N</field>
+		<field name="longitud">67°35′45″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_6" model="ubc_estados">
+		<field name="id">6</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Barinas</field>
+		<field name="abreviatura">BAR</field>
+		<field name="capital">Barinas</field>
+		<field name="poblacion">897519</field>
+		<field name="latitud">08°37′21″N</field>
+		<field name="longitud">70°12′27″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_7" model="ubc_estados">
+		<field name="id">7</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Bolívar</field>
+		<field name="abreviatura">BOL</field>
+		<field name="capital">Ciudad Bolívar</field>
+		<field name="poblacion">1780899</field>
+		<field name="latitud">08°07′45″N</field>
+		<field name="longitud">63°32′27″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_8" model="ubc_estados">
+		<field name="id">8</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Carabobo</field>
+		<field name="abreviatura">CAR</field>
+		<field name="capital">Valencia</field>
+		<field name="poblacion">2469246</field>
+		<field name="latitud">10°09′43″N</field>
+		<field name="longitud">68°00′28″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_9" model="ubc_estados">
+		<field name="id">9</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Cojedes</field>
+		<field name="abreviatura">COJ</field>
+		<field name="capital">San Carlos</field>
+		<field name="poblacion">351772</field>
+		<field name="latitud">09°39′40″N</field>
+		<field name="longitud">68°34′58″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_10" model="ubc_estados">
+		<field name="id">10</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Delta Amacuro</field>
+		<field name="abreviatura">DTA</field>
+		<field name="capital">Tucupita</field>
+		<field name="poblacion">192874</field>
+		<field name="latitud">09°03′44″N</field>
+		<field name="longitud">62°03′04″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_11" model="ubc_estados">
+		<field name="id">11</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Falcón</field>
+		<field name="abreviatura">FAL</field>
+		<field name="capital">Santa Ana de Coro</field>
+		<field name="poblacion">1030827</field>
+		<field name="latitud">11°24′16″N</field>
+		<field name="longitud">69°40′24″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_12" model="ubc_estados">
+		<field name="id">12</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Guárico</field>
+		<field name="abreviatura">GUA</field>
+		<field name="capital">San Juan de los Morros</field>
+		<field name="poblacion">886877</field>
+		<field name="latitud">09°54′41″N</field>
+		<field name="longitud">67°21′14″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_13" model="ubc_estados">
+		<field name="id">13</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Lara</field>
+		<field name="abreviatura">LAR</field>
+		<field name="capital">Barquisimeto</field>
+		<field name="poblacion">1985596</field>
+		<field name="latitud">10°04′26″N</field>
+		<field name="longitud">69°19′22″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_14" model="ubc_estados">
+		<field name="id">14</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Mérida</field>
+		<field name="abreviatura">MER</field>
+		<field name="capital">Mérida</field>
+		<field name="poblacion">990280</field>
+		<field name="latitud">08°35′43″N</field>
+		<field name="longitud">71°08′36″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_15" model="ubc_estados">
+		<field name="id">15</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Miranda</field>
+		<field name="abreviatura">MIR</field>
+		<field name="capital">Los Teques</field>
+		<field name="poblacion">3194390</field>
+		<field name="latitud">10°20′40″N</field>
+		<field name="longitud">67°02′36″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_16" model="ubc_estados">
+		<field name="id">16</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Monagas</field>
+		<field name="abreviatura">MON</field>
+		<field name="capital">Maturín</field>
+		<field name="poblacion">982539</field>
+		<field name="latitud">09°45′00″N</field>
+		<field name="longitud">63°10′36″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_17" model="ubc_estados">
+		<field name="id">17</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Nueva Esparta</field>
+		<field name="abreviatura">NES</field>
+		<field name="capital">La Asunción</field>
+		<field name="poblacion">569315</field>
+		<field name="latitud">11°01′48″N</field>
+		<field name="longitud">63°51′52″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_18" model="ubc_estados">
+		<field name="id">18</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Portugesa</field>
+		<field name="abreviatura">POR</field>
+		<field name="capital">Guanare</field>
+		<field name="poblacion">1008648</field>
+		<field name="latitud">09°02′31″N</field>
+		<field name="longitud">69°44′31″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_19" model="ubc_estados">
+		<field name="id">19</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Sucre</field>
+		<field name="abreviatura">SUC</field>
+		<field name="capital">Cumaná</field>
+		<field name="poblacion">1043493</field>
+		<field name="latitud">10°27′49″N</field>
+		<field name="longitud">64°10′39″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_20" model="ubc_estados">
+		<field name="id">20</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Táchira</field>
+		<field name="abreviatura">TCH</field>
+		<field name="capital">San Cristóbal</field>
+		<field name="poblacion">1247507</field>
+		<field name="latitud">07°46′01″N</field>
+		<field name="longitud">72°13′30″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_21" model="ubc_estados">
+		<field name="id">21</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Trujillo</field>
+		<field name="abreviatura">TRU</field>
+		<field name="capital">Trujillo</field>
+		<field name="poblacion">826906</field>
+		<field name="latitud">09°22′15″N</field>
+		<field name="longitud">70°26′05″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_22" model="ubc_estados">
+		<field name="id">22</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Yaracuy</field>
+		<field name="abreviatura">YAR</field>
+		<field name="capital">San Felipe</field>
+		<field name="poblacion">703673</field>
+		<field name="latitud">10°20′24″N</field>
+		<field name="longitud">68°44′33″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_23" model="ubc_estados">
+		<field name="id">23</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Zulia</field>
+		<field name="abreviatura">ZUL</field>
+		<field name="capital">Maracaibo</field>
+		<field name="poblacion">4141572</field>
+		<field name="latitud">10°37′54″N</field>
+		<field name="longitud">71°38′26″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_24" model="ubc_estados">
+		<field name="id">24</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Vargas</field>
+		<field name="abreviatura">VAR</field>
+		<field name="capital">La Guaira</field>
+		<field name="poblacion">369555</field>
+		<field name="latitud">10°35′56″N</field>
+		<field name="longitud">66°56′05″W</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+	<record id="ues_25" model="ubc_estados">
+		<field name="id">25</field>
+		<field name="pais_id">1</field>
+		<field name="nombre">Dependencias Federales</field>
+		<field name="abreviatura">NDF</field>
+		<field name="capital">Dependencias Federales</field>
+		<field name="poblacion">2225</field>
+		<field name="latitud">0</field>
+		<field name="longitud">0</field>
+		<field name="horario">UT-4:30</field>
+	</record>
+</data>
+</openerp>

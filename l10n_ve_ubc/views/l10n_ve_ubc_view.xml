@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+    <record model="ir.ui.view" id="view_ubc_paises_form">
+        <field name="name">ubc_paises.form</field>
+        <field name="model">ubc_paises</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubc_paises">
+            <group col="4" colspan="2">
+                <field name="continente_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="0"/>
+                <field name="descripcion" select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubc_paises_tree">
+        <field name="name">ubc_paises.tree</field>
+        <field name="model">ubc_paises</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubc_paises">
+                <field name="continente_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="descripcion"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubc_paises">
+        <field name="name">Paises</field>
+        <field name="res_model">ubc_paises</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_ubc_estados_form">
+        <field name="name">ubc_estados.form</field>
+        <field name="model">ubc_estados</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubc_estados">
+            <group col="4" colspan="2">
+                <field name="pais_id" select="1"/>
+                <!--<field name="pais_id" select="1" context="{'pais_id':1}"/>-->
+                <field name="nombre" select="2"/>
+                <field name="abreviatura" select="0"/>
+                <field name="capital" select="0"/>
+                <field name="poblacion" select="0"/>
+                <field name="latitud" select="0"/>
+                <field name="longitud" select="0"/>
+                <field name="horario" select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubc_estados_tree">
+        <field name="name">ubc_estados.tree</field>
+        <field name="model">ubc_estados</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubc_estados">
+                <!--<field name="pais_id"/>-->
+                <field name="nombre"/>
+                <field name="abreviatura"/>
+                <field name="capital"/>
+                <field name="poblacion"/>
+                <field name="latitud"/>
+                <field name="longitud"/>
+                <field name="horario"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubc_estados">
+        <field name="name">Estados</field>
+        <field name="res_model">ubc_estados</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_ubc_continentes_form">
+        <field name="name">ubc_continentes.form</field>
+        <field name="model">ubc_continentes</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubc_continentes">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+                <field name="descripcion" select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubc_continentes_tree">
+        <field name="name">ubc_continentes.tree</field>
+        <field name="model">ubc_continentes</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubc_continentes">
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="descripcion"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubc_continentes">
+        <field name="name">Continentes</field>
+        <field name="res_model">ubc_continentes</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_ubc_municipios_form">
+        <field name="name">ubc_municipios.form</field>
+        <field name="model">ubc_municipios</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubc_municipios">
+            <group col="4" colspan="2">
+                <field name="estado_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="0"/>
+                <field name="ciudad" select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubc_municipios_tree">
+        <field name="name">ubc_municipios.tree</field>
+        <field name="model">ubc_municipios</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubc_municipios">
+                <field name="estado_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="ciudad"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubc_municipios">
+        <field name="name">Municipios</field>
+        <field name="res_model">ubc_municipios</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.ui.view" id="view_ubc_parroquias_form">
+        <field name="name">ubc_parroquias.form</field>
+        <field name="model">ubc_parroquias</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="ubc_parroquias">
+            <group col="4" colspan="2">
+                <field name="municipio_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="0"/>
+                <field name="ciudad" select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_ubc_parroquias_tree">
+        <field name="name">ubc_parroquias.tree</field>
+        <field name="model">ubc_parroquias</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="ubc_parroquias">
+                <field name="municipio_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="ciudad"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_ubc_parroquias">
+        <field name="name">Parroquias</field>
+        <field name="res_model">ubc_parroquias</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menú Localizaciones Ubicaciones -->
+    <!--
+    menuitem name="Localizaciones" id="men_pri"/>
+    <menuitem name="UBICACIONES" id="men_ubc" parent="men_pri"/>
+    <menuitem name="Continentes" id="menu_ubc_continentes" action="action_ubc_continentes" parent="men_ubc"/>
+    <menuitem name="Paises" id="menu_ubc_paises" action="action_ubc_paises" parent="men_ubc"/>
+    <menuitem name="Estados" id="menu_ubc_estados" action="action_ubc_estados" parent="men_ubc"/>
+    <menuitem name="Municipios" id="menu_ubc_municipios" action="action_ubc_municipios" parent="men_ubc"/>
+    <menuitem name="Parroquias" id="menu_ubc_parroquias" action="action_ubc_parroquias" parent="men_ubc"/>
+    -->
+    
+</data>
+</openerp>

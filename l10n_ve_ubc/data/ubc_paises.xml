@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creado por BachacoVE-->
+<!--Thursday 3rd of December 2015 06:05:00 AM-->
+<openerp>
+<data>
+	<record id="pai_1" model="ubc_paises">
+		<field name="id">1</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">862</field>
+		<field name="nombre">República Bolvariana de Venezuela</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_2" model="ubc_paises">
+		<field name="id">2</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">108</field>
+		<field name="nombre">Burundi</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_3" model="ubc_paises">
+		<field name="id">3</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">174</field>
+		<field name="nombre">Comoras</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_4" model="ubc_paises">
+		<field name="id">4</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">262</field>
+		<field name="nombre">Djibouti</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_5" model="ubc_paises">
+		<field name="id">5</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">232</field>
+		<field name="nombre">Eritrea</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_6" model="ubc_paises">
+		<field name="id">6</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">231</field>
+		<field name="nombre">Etiopia</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_7" model="ubc_paises">
+		<field name="id">7</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">404</field>
+		<field name="nombre">Kenia</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_8" model="ubc_paises">
+		<field name="id">8</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">450</field>
+		<field name="nombre">Madagascar</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_9" model="ubc_paises">
+		<field name="id">9</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">175</field>
+		<field name="nombre">Mayotte </field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_10" model="ubc_paises">
+		<field name="id">10</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">454</field>
+		<field name="nombre">Malawi</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_11" model="ubc_paises">
+		<field name="id">11</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">480</field>
+		<field name="nombre">Mauricio</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_12" model="ubc_paises">
+		<field name="id">12</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">508</field>
+		<field name="nombre">Mozambique</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_13" model="ubc_paises">
+		<field name="id">13</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">638</field>
+		<field name="nombre">Reunión </field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_14" model="ubc_paises">
+		<field name="id">14</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">646</field>
+		<field name="nombre">Ruanda</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_15" model="ubc_paises">
+		<field name="id">15</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">690</field>
+		<field name="nombre">Seychelles</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_16" model="ubc_paises">
+		<field name="id">16</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">706</field>
+		<field name="nombre">Somalia</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_17" model="ubc_paises">
+		<field name="id">17</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">834</field>
+		<field name="nombre">República Unida de Tanzania</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_18" model="ubc_paises">
+		<field name="id">18</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">800</field>
+		<field name="nombre">Uganda</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_19" model="ubc_paises">
+		<field name="id">19</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">894</field>
+		<field name="nombre">Zambia</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_20" model="ubc_paises">
+		<field name="id">20</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">716</field>
+		<field name="nombre">Zimbabwe</field>
+		<field name="descripcion">Africa Oriental</field>
+	</record>
+	<record id="pai_21" model="ubc_paises">
+		<field name="id">21</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">24</field>
+		<field name="nombre">Angola</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_22" model="ubc_paises">
+		<field name="id">22</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">120</field>
+		<field name="nombre">Camerún</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_23" model="ubc_paises">
+		<field name="id">23</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">178</field>
+		<field name="nombre">Congo</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_24" model="ubc_paises">
+		<field name="id">24</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">148</field>
+		<field name="nombre">Chad</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_25" model="ubc_paises">
+		<field name="id">25</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">266</field>
+		<field name="nombre">Gabón</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_26" model="ubc_paises">
+		<field name="id">26</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">226</field>
+		<field name="nombre">Guinea Ecuatorial</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_27" model="ubc_paises">
+		<field name="id">27</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">140</field>
+		<field name="nombre">República Centroafricana</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_28" model="ubc_paises">
+		<field name="id">28</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">180</field>
+		<field name="nombre">República Democrática del Congo</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_29" model="ubc_paises">
+		<field name="id">29</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">678</field>
+		<field name="nombre">Santo Tomé y Príncipe</field>
+		<field name="descripcion">África Central</field>
+	</record>
+	<record id="pai_30" model="ubc_paises">
+		<field name="id">30</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Argelia</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_31" model="ubc_paises">
+		<field name="id">31</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">818</field>
+		<field name="nombre">Egipto</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_32" model="ubc_paises">
+		<field name="id">32</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">434</field>
+		<field name="nombre">Jamahiriya Árabe Libia</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_33" model="ubc_paises">
+		<field name="id">33</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">504</field>
+		<field name="nombre">Marruecos</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_34" model="ubc_paises">
+		<field name="id">34</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">725</field>
+		<field name="nombre">Islas Canarias</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_35" model="ubc_paises">
+		<field name="id">35</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">732</field>
+		<field name="nombre">Sáhara Occidental </field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_36" model="ubc_paises">
+		<field name="id">36</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">728</field>
+		<field name="nombre">Sudán del Sur</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_37" model="ubc_paises">
+		<field name="id">37</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">736</field>
+		<field name="nombre">Sudán del Norte</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_38" model="ubc_paises">
+		<field name="id">38</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">788</field>
+		<field name="nombre">Túnez</field>
+		<field name="descripcion">África Septentrional</field>
+	</record>
+	<record id="pai_39" model="ubc_paises">
+		<field name="id">39</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">72</field>
+		<field name="nombre">Botswana</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_40" model="ubc_paises">
+		<field name="id">40</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">74</field>
+		<field name="nombre">Isla Bouvet</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_41" model="ubc_paises">
+		<field name="id">41</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">426</field>
+		<field name="nombre">lesotho</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_42" model="ubc_paises">
+		<field name="id">42</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">516</field>
+		<field name="nombre">Namibia</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_43" model="ubc_paises">
+		<field name="id">43</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">710</field>
+		<field name="nombre">Sudáfrica</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_44" model="ubc_paises">
+		<field name="id">44</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">748</field>
+		<field name="nombre">Swazilandia</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_45" model="ubc_paises">
+		<field name="id">45</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">86</field>
+		<field name="nombre">Territorio Británico del Océano Indico</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_46" model="ubc_paises">
+		<field name="id">46</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">260</field>
+		<field name="nombre">Territorio Australes Franceses</field>
+		<field name="descripcion">África Meridional</field>
+	</record>
+	<record id="pai_47" model="ubc_paises">
+		<field name="id">47</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">204</field>
+		<field name="nombre">Benín</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_48" model="ubc_paises">
+		<field name="id">48</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">854</field>
+		<field name="nombre">Burkina Faso</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_49" model="ubc_paises">
+		<field name="id">49</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">132</field>
+		<field name="nombre">Cabo Verde</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_50" model="ubc_paises">
+		<field name="id">50</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">384</field>
+		<field name="nombre">Costa de Marfil</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_51" model="ubc_paises">
+		<field name="id">51</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">270</field>
+		<field name="nombre">Gambia</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_52" model="ubc_paises">
+		<field name="id">52</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">288</field>
+		<field name="nombre">Ghana</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_53" model="ubc_paises">
+		<field name="id">53</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">324</field>
+		<field name="nombre">Guinea </field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_54" model="ubc_paises">
+		<field name="id">54</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">624</field>
+		<field name="nombre">Guinea-Bissau</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_55" model="ubc_paises">
+		<field name="id">55</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">430</field>
+		<field name="nombre">Liberia</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_56" model="ubc_paises">
+		<field name="id">56</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">466</field>
+		<field name="nombre">Malí</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_57" model="ubc_paises">
+		<field name="id">57</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">478</field>
+		<field name="nombre">Mauritania</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_58" model="ubc_paises">
+		<field name="id">58</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">562</field>
+		<field name="nombre">Níger</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_59" model="ubc_paises">
+		<field name="id">59</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">566</field>
+		<field name="nombre">Nigeria</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_60" model="ubc_paises">
+		<field name="id">60</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">654</field>
+		<field name="nombre">Santa Elena </field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_61" model="ubc_paises">
+		<field name="id">61</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">686</field>
+		<field name="nombre">Senegal</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_62" model="ubc_paises">
+		<field name="id">62</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">694</field>
+		<field name="nombre">Sierra Leona</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_63" model="ubc_paises">
+		<field name="id">63</field>
+		<field name="continente_id">1</field>
+		<field name="codigo">768</field>
+		<field name="nombre">Togo</field>
+		<field name="descripcion">África Occidental</field>
+	</record>
+	<record id="pai_64" model="ubc_paises">
+		<field name="id">64</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">660</field>
+		<field name="nombre">Anguila</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_65" model="ubc_paises">
+		<field name="id">65</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">28</field>
+		<field name="nombre">Antigua y Barbuda</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_66" model="ubc_paises">
+		<field name="id">66</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">530</field>
+		<field name="nombre">Antillas Holandesas</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_67" model="ubc_paises">
+		<field name="id">67</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">533</field>
+		<field name="nombre">Aruba</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_68" model="ubc_paises">
+		<field name="id">68</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">44</field>
+		<field name="nombre">Bahamas</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_69" model="ubc_paises">
+		<field name="id">69</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">52</field>
+		<field name="nombre">Barbados</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_70" model="ubc_paises">
+		<field name="id">70</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">532</field>
+		<field name="nombre">Bonaire</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_71" model="ubc_paises">
+		<field name="id">71</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">192</field>
+		<field name="nombre">Cuba</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_72" model="ubc_paises">
+		<field name="id">72</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">531</field>
+		<field name="nombre">Curazao</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_73" model="ubc_paises">
+		<field name="id">73</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">212</field>
+		<field name="nombre">Dominica</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_74" model="ubc_paises">
+		<field name="id">74</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">308</field>
+		<field name="nombre">Granada</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_75" model="ubc_paises">
+		<field name="id">75</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">312</field>
+		<field name="nombre">Guadalupe</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_76" model="ubc_paises">
+		<field name="id">76</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">332</field>
+		<field name="nombre">Haití</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_77" model="ubc_paises">
+		<field name="id">77</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">136</field>
+		<field name="nombre">Islas Caimán</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_78" model="ubc_paises">
+		<field name="id">78</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">796</field>
+		<field name="nombre">Islas Turcas y Caicos</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_79" model="ubc_paises">
+		<field name="id">79</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">92</field>
+		<field name="nombre">Islas Vírgenes Británicas</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_80" model="ubc_paises">
+		<field name="id">80</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">850</field>
+		<field name="nombre">Islas Vírgenes de los Estados Unidos </field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_81" model="ubc_paises">
+		<field name="id">81</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">388</field>
+		<field name="nombre">Jamaica</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_82" model="ubc_paises">
+		<field name="id">82</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">474</field>
+		<field name="nombre">Martinica</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_83" model="ubc_paises">
+		<field name="id">83</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">500</field>
+		<field name="nombre">Montserrat</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_84" model="ubc_paises">
+		<field name="id">84</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">630</field>
+		<field name="nombre">Puerto Rico</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_85" model="ubc_paises">
+		<field name="id">85</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">214</field>
+		<field name="nombre">República Dominicana</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_86" model="ubc_paises">
+		<field name="id">86</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">652</field>
+		<field name="nombre">San Bartolomé</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_87" model="ubc_paises">
+		<field name="id">87</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">659</field>
+		<field name="nombre">San Cristóbal y Nevis</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_88" model="ubc_paises">
+		<field name="id">88</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">662</field>
+		<field name="nombre">Santa Lucía</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_89" model="ubc_paises">
+		<field name="id">89</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">663</field>
+		<field name="nombre">San Martín </field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_90" model="ubc_paises">
+		<field name="id">90</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">670</field>
+		<field name="nombre">San Vicente y Las Granadinas</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_91" model="ubc_paises">
+		<field name="id">91</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">780</field>
+		<field name="nombre">Trinidad y Tobago</field>
+		<field name="descripcion">América del Norte</field>
+	</record>
+	<record id="pai_92" model="ubc_paises">
+		<field name="id">92</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">84</field>
+		<field name="nombre">Belice</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_93" model="ubc_paises">
+		<field name="id">93</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">188</field>
+		<field name="nombre">Costa Rica</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_94" model="ubc_paises">
+		<field name="id">94</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">222</field>
+		<field name="nombre">El Salvador</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_95" model="ubc_paises">
+		<field name="id">95</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">320</field>
+		<field name="nombre">Guatemala</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_96" model="ubc_paises">
+		<field name="id">96</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">340</field>
+		<field name="nombre">Honduras</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_97" model="ubc_paises">
+		<field name="id">97</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">484</field>
+		<field name="nombre">México</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_98" model="ubc_paises">
+		<field name="id">98</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">558</field>
+		<field name="nombre">Nicaragua</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_99" model="ubc_paises">
+		<field name="id">99</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">591</field>
+		<field name="nombre">Panamá</field>
+		<field name="descripcion">América Central</field>
+	</record>
+	<record id="pai_100" model="ubc_paises">
+		<field name="id">100</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">60</field>
+		<field name="nombre">Bermuda </field>
+		<field name="descripcion">América Septentrional</field>
+	</record>
+	<record id="pai_101" model="ubc_paises">
+		<field name="id">101</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">124</field>
+		<field name="nombre">Canadá</field>
+		<field name="descripcion">América Septentrional</field>
+	</record>
+	<record id="pai_102" model="ubc_paises">
+		<field name="id">102</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">840</field>
+		<field name="nombre">Estados Unidos de América</field>
+		<field name="descripcion">América Septentrional</field>
+	</record>
+	<record id="pai_103" model="ubc_paises">
+		<field name="id">103</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">304</field>
+		<field name="nombre">Groenlandia </field>
+		<field name="descripcion">América Septentrional</field>
+	</record>
+	<record id="pai_104" model="ubc_paises">
+		<field name="id">104</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">666</field>
+		<field name="nombre">San Pedro y Miquelón </field>
+		<field name="descripcion">América Septentrional</field>
+	</record>
+	<record id="pai_105" model="ubc_paises">
+		<field name="id">105</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">32</field>
+		<field name="nombre">Argentina</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_106" model="ubc_paises">
+		<field name="id">106</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">68</field>
+		<field name="nombre">Bolivia</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_107" model="ubc_paises">
+		<field name="id">107</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">76</field>
+		<field name="nombre">Brasil</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_108" model="ubc_paises">
+		<field name="id">108</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">170</field>
+		<field name="nombre">Colombia</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_109" model="ubc_paises">
+		<field name="id">109</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">152</field>
+		<field name="nombre">Chile</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_110" model="ubc_paises">
+		<field name="id">110</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">218</field>
+		<field name="nombre">Ecuador</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_111" model="ubc_paises">
+		<field name="id">111</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">254</field>
+		<field name="nombre">Guayana Francesa </field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_112" model="ubc_paises">
+		<field name="id">112</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">328</field>
+		<field name="nombre">Guyana</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_113" model="ubc_paises">
+		<field name="id">113</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">238</field>
+		<field name="nombre">Islas Malvinas (Falkland) </field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_114" model="ubc_paises">
+		<field name="id">114</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">289</field>
+		<field name="nombre">Islas Georgias del Sur y Sándwich del Sur </field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_115" model="ubc_paises">
+		<field name="id">115</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">600</field>
+		<field name="nombre">Paraguay</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_116" model="ubc_paises">
+		<field name="id">116</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">604</field>
+		<field name="nombre">Perú</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_117" model="ubc_paises">
+		<field name="id">117</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">740</field>
+		<field name="nombre">Suriname</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_118" model="ubc_paises">
+		<field name="id">118</field>
+		<field name="continente_id">2</field>
+		<field name="codigo">858</field>
+		<field name="nombre">Uruguay</field>
+		<field name="descripcion">América del Sur</field>
+	</record>
+	<record id="pai_119" model="ubc_paises">
+		<field name="id">119</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">156</field>
+		<field name="nombre">China</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_120" model="ubc_paises">
+		<field name="id">120</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">344</field>
+		<field name="nombre">Hong kong (Región Administrativa Especial de China)</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_121" model="ubc_paises">
+		<field name="id">121</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">392</field>
+		<field name="nombre">Japón</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_122" model="ubc_paises">
+		<field name="id">122</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">446</field>
+		<field name="nombre">Macao</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_123" model="ubc_paises">
+		<field name="id">123</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">496</field>
+		<field name="nombre">Mongolia</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_124" model="ubc_paises">
+		<field name="id">124</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">410</field>
+		<field name="nombre">República de Corea del Sur</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_125" model="ubc_paises">
+		<field name="id">125</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">408</field>
+		<field name="nombre">República Popular Democrática de Corea del Norte</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_126" model="ubc_paises">
+		<field name="id">126</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">158</field>
+		<field name="nombre">Taiwan</field>
+		<field name="descripcion">Asia Oriental</field>
+	</record>
+	<record id="pai_127" model="ubc_paises">
+		<field name="id">127</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Afganistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_128" model="ubc_paises">
+		<field name="id">128</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">50</field>
+		<field name="nombre">Bangladesh</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_129" model="ubc_paises">
+		<field name="id">129</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">64</field>
+		<field name="nombre">Bhután</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_130" model="ubc_paises">
+		<field name="id">130</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">356</field>
+		<field name="nombre">India</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_131" model="ubc_paises">
+		<field name="id">131</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">364</field>
+		<field name="nombre">República Islámica del Irán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_132" model="ubc_paises">
+		<field name="id">132</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">398</field>
+		<field name="nombre">Kazajstán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_133" model="ubc_paises">
+		<field name="id">133</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">417</field>
+		<field name="nombre">Kirguizistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_134" model="ubc_paises">
+		<field name="id">134</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">462</field>
+		<field name="nombre">Maldivas</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_135" model="ubc_paises">
+		<field name="id">135</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">524</field>
+		<field name="nombre">Nepal</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_136" model="ubc_paises">
+		<field name="id">136</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">586</field>
+		<field name="nombre">Pakistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_137" model="ubc_paises">
+		<field name="id">137</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">144</field>
+		<field name="nombre">Sri Lanka</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_138" model="ubc_paises">
+		<field name="id">138</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">762</field>
+		<field name="nombre">Tayikistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_139" model="ubc_paises">
+		<field name="id">139</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">795</field>
+		<field name="nombre">Turkmenistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_140" model="ubc_paises">
+		<field name="id">140</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">860</field>
+		<field name="nombre">Uzbekistán</field>
+		<field name="descripcion">Asia Central Meridional</field>
+	</record>
+	<record id="pai_141" model="ubc_paises">
+		<field name="id">141</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">96</field>
+		<field name="nombre">Brunei Darussalam</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_142" model="ubc_paises">
+		<field name="id">142</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">116</field>
+		<field name="nombre">Camboya</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_143" model="ubc_paises">
+		<field name="id">143</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">608</field>
+		<field name="nombre">Filipinas</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_144" model="ubc_paises">
+		<field name="id">144</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">360</field>
+		<field name="nombre">Indonesia</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_145" model="ubc_paises">
+		<field name="id">145</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">458</field>
+		<field name="nombre">Malasia</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_146" model="ubc_paises">
+		<field name="id">146</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">104</field>
+		<field name="nombre">Myanmar</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_147" model="ubc_paises">
+		<field name="id">147</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">418</field>
+		<field name="nombre">República Democrática Popular Lao</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_148" model="ubc_paises">
+		<field name="id">148</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">702</field>
+		<field name="nombre">Singapur</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_149" model="ubc_paises">
+		<field name="id">149</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">764</field>
+		<field name="nombre">Tailandia</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_150" model="ubc_paises">
+		<field name="id">150</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">626</field>
+		<field name="nombre">Timor Oriental</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_151" model="ubc_paises">
+		<field name="id">151</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">704</field>
+		<field name="nombre">Vietnam</field>
+		<field name="descripcion">Asia Sudoriental</field>
+	</record>
+	<record id="pai_152" model="ubc_paises">
+		<field name="id">152</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">682</field>
+		<field name="nombre">Arabia Saudita</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_153" model="ubc_paises">
+		<field name="id">153</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">51</field>
+		<field name="nombre">Armenia</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_154" model="ubc_paises">
+		<field name="id">154</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">31</field>
+		<field name="nombre">Azerbaiyán</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_155" model="ubc_paises">
+		<field name="id">155</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">48</field>
+		<field name="nombre">Bahrein</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_156" model="ubc_paises">
+		<field name="id">156</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">196</field>
+		<field name="nombre">Chipre</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_157" model="ubc_paises">
+		<field name="id">157</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">784</field>
+		<field name="nombre">Emiratos Árabes Unidos</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_158" model="ubc_paises">
+		<field name="id">158</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">274</field>
+		<field name="nombre">Franja de Gaza</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_159" model="ubc_paises">
+		<field name="id">159</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">268</field>
+		<field name="nombre">Georgia</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_160" model="ubc_paises">
+		<field name="id">160</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">368</field>
+		<field name="nombre">Irak</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_161" model="ubc_paises">
+		<field name="id">161</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">376</field>
+		<field name="nombre">Israel</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_162" model="ubc_paises">
+		<field name="id">162</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">400</field>
+		<field name="nombre">Jordania</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_163" model="ubc_paises">
+		<field name="id">163</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">414</field>
+		<field name="nombre">Kuwait</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_164" model="ubc_paises">
+		<field name="id">164</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">422</field>
+		<field name="nombre">Líbano</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_165" model="ubc_paises">
+		<field name="id">165</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">512</field>
+		<field name="nombre">Omán</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_166" model="ubc_paises">
+		<field name="id">166</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">275</field>
+		<field name="nombre">Palestina</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_167" model="ubc_paises">
+		<field name="id">167</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">634</field>
+		<field name="nombre">Qatar</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_168" model="ubc_paises">
+		<field name="id">168</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">760</field>
+		<field name="nombre">República Árabe Siria</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_169" model="ubc_paises">
+		<field name="id">169</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">792</field>
+		<field name="nombre">Turquía</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_170" model="ubc_paises">
+		<field name="id">170</field>
+		<field name="continente_id">3</field>
+		<field name="codigo">887</field>
+		<field name="nombre">Yemen</field>
+		<field name="descripcion">Asia Occidental</field>
+	</record>
+	<record id="pai_171" model="ubc_paises">
+		<field name="id">171</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">112</field>
+		<field name="nombre">Bielorrusia (Belarús)</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_172" model="ubc_paises">
+		<field name="id">172</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">100</field>
+		<field name="nombre">Bulgaria</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_173" model="ubc_paises">
+		<field name="id">173</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">703</field>
+		<field name="nombre">Eslovaquia</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_174" model="ubc_paises">
+		<field name="id">174</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">348</field>
+		<field name="nombre">Hungría</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_175" model="ubc_paises">
+		<field name="id">175</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">616</field>
+		<field name="nombre">Polonia</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_176" model="ubc_paises">
+		<field name="id">176</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">203</field>
+		<field name="nombre">República Checa</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_177" model="ubc_paises">
+		<field name="id">177</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">498</field>
+		<field name="nombre">República de Moldova</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_178" model="ubc_paises">
+		<field name="id">178</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">642</field>
+		<field name="nombre">Rumania</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_179" model="ubc_paises">
+		<field name="id">179</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">643</field>
+		<field name="nombre">Federación de Rusia</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_180" model="ubc_paises">
+		<field name="id">180</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">804</field>
+		<field name="nombre">Ucrania</field>
+		<field name="descripcion">Europa Oriental</field>
+	</record>
+	<record id="pai_181" model="ubc_paises">
+		<field name="id">181</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">208</field>
+		<field name="nombre">Dinamarca</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_182" model="ubc_paises">
+		<field name="id">182</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">233</field>
+		<field name="nombre">Estonia</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_183" model="ubc_paises">
+		<field name="id">183</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">246</field>
+		<field name="nombre">Finlandia</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_184" model="ubc_paises">
+		<field name="id">184</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">833</field>
+		<field name="nombre">Isla de Man</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_185" model="ubc_paises">
+		<field name="id">185</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">248</field>
+		<field name="nombre">Islas Aland</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_186" model="ubc_paises">
+		<field name="id">186</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">830</field>
+		<field name="nombre">Islas Anglonormandas</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_187" model="ubc_paises">
+		<field name="id">187</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">234</field>
+		<field name="nombre">Islas Feroe</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_188" model="ubc_paises">
+		<field name="id">188</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">744</field>
+		<field name="nombre">Islas Svalbard y Jan Mayen</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_189" model="ubc_paises">
+		<field name="id">189</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">352</field>
+		<field name="nombre">Islandia</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_190" model="ubc_paises">
+		<field name="id">190</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">372</field>
+		<field name="nombre">Irlanda</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_191" model="ubc_paises">
+		<field name="id">191</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">428</field>
+		<field name="nombre">Letonia</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_192" model="ubc_paises">
+		<field name="id">192</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">440</field>
+		<field name="nombre">Lituania</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_193" model="ubc_paises">
+		<field name="id">193</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">578</field>
+		<field name="nombre">Noruega</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_194" model="ubc_paises">
+		<field name="id">194</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">752</field>
+		<field name="nombre">Suecia</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_195" model="ubc_paises">
+		<field name="id">195</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">826</field>
+		<field name="nombre">Reino Unido</field>
+		<field name="descripcion">Europa Septentrional</field>
+	</record>
+	<record id="pai_196" model="ubc_paises">
+		<field name="id">196</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Albania</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_197" model="ubc_paises">
+		<field name="id">197</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Andorra</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_198" model="ubc_paises">
+		<field name="id">198</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">70</field>
+		<field name="nombre">Bosnia y Herzegovina</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_199" model="ubc_paises">
+		<field name="id">199</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">191</field>
+		<field name="nombre">Croacia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_200" model="ubc_paises">
+		<field name="id">200</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">705</field>
+		<field name="nombre">Eslovenia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_201" model="ubc_paises">
+		<field name="id">201</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">724</field>
+		<field name="nombre">España</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_202" model="ubc_paises">
+		<field name="id">202</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">807</field>
+		<field name="nombre">Ex República Yugoslava de Macedonia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_203" model="ubc_paises">
+		<field name="id">203</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">292</field>
+		<field name="nombre">Gibraltar</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_204" model="ubc_paises">
+		<field name="id">204</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">300</field>
+		<field name="nombre">Grecia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_205" model="ubc_paises">
+		<field name="id">205</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">380</field>
+		<field name="nombre">Italia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_206" model="ubc_paises">
+		<field name="id">206</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">689</field>
+		<field name="nombre">Kosovo</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_207" model="ubc_paises">
+		<field name="id">207</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">470</field>
+		<field name="nombre">Malta</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_208" model="ubc_paises">
+		<field name="id">208</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">499</field>
+		<field name="nombre">Montenegro</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_209" model="ubc_paises">
+		<field name="id">209</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">620</field>
+		<field name="nombre">Portugal</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_210" model="ubc_paises">
+		<field name="id">210</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">674</field>
+		<field name="nombre">San Marino</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_211" model="ubc_paises">
+		<field name="id">211</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">336</field>
+		<field name="nombre">Santa Sede (Vaticano)</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_212" model="ubc_paises">
+		<field name="id">212</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">688</field>
+		<field name="nombre">Serbia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_213" model="ubc_paises">
+		<field name="id">213</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">891</field>
+		<field name="nombre">Yugoslavia</field>
+		<field name="descripcion">Europa Meridional</field>
+	</record>
+	<record id="pai_214" model="ubc_paises">
+		<field name="id">214</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">276</field>
+		<field name="nombre">Alemania</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_215" model="ubc_paises">
+		<field name="id">215</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">40</field>
+		<field name="nombre">Austria</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_216" model="ubc_paises">
+		<field name="id">216</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">56</field>
+		<field name="nombre">Bélgica</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_217" model="ubc_paises">
+		<field name="id">217</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">250</field>
+		<field name="nombre">Francia</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_218" model="ubc_paises">
+		<field name="id">218</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">831</field>
+		<field name="nombre">Guernsey</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_219" model="ubc_paises">
+		<field name="id">219</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">832</field>
+		<field name="nombre">Jersey</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_220" model="ubc_paises">
+		<field name="id">220</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">438</field>
+		<field name="nombre">Liechtenstein</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_221" model="ubc_paises">
+		<field name="id">221</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">442</field>
+		<field name="nombre">Luxemburgo</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_222" model="ubc_paises">
+		<field name="id">222</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">492</field>
+		<field name="nombre">Mónaco</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_223" model="ubc_paises">
+		<field name="id">223</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">528</field>
+		<field name="nombre">Países Bajos</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_224" model="ubc_paises">
+		<field name="id">224</field>
+		<field name="continente_id">4</field>
+		<field name="codigo">756</field>
+		<field name="nombre">Suiza</field>
+		<field name="descripcion">Europa Occidental</field>
+	</record>
+	<record id="pai_225" model="ubc_paises">
+		<field name="id">225</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">36</field>
+		<field name="nombre">Australia</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_226" model="ubc_paises">
+		<field name="id">226</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">166</field>
+		<field name="nombre">Islas Cocos ó Keeling</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_227" model="ubc_paises">
+		<field name="id">227</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">334</field>
+		<field name="nombre">Islas Heard y Mc Donald</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_228" model="ubc_paises">
+		<field name="id">228</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">162</field>
+		<field name="nombre">Isla de Navidad (Chistmas)</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_229" model="ubc_paises">
+		<field name="id">229</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">574</field>
+		<field name="nombre">Islas Norfolk</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_230" model="ubc_paises">
+		<field name="id">230</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">554</field>
+		<field name="nombre">Nueva Zelandia</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_231" model="ubc_paises">
+		<field name="id">231</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">242</field>
+		<field name="nombre">Fiji</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_232" model="ubc_paises">
+		<field name="id">232</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">90</field>
+		<field name="nombre">Islas Salomón</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_233" model="ubc_paises">
+		<field name="id">233</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">540</field>
+		<field name="nombre">Nueva Caledonia</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_234" model="ubc_paises">
+		<field name="id">234</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">598</field>
+		<field name="nombre">Papúa Nueva Guinea</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_235" model="ubc_paises">
+		<field name="id">235</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">548</field>
+		<field name="nombre">Vanuatu</field>
+		<field name="descripcion">Australia y Nueva Zelandia</field>
+	</record>
+	<record id="pai_236" model="ubc_paises">
+		<field name="id">236</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">316</field>
+		<field name="nombre">Guam</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_237" model="ubc_paises">
+		<field name="id">237</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">580</field>
+		<field name="nombre">Islas Marianas Septentrionales</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_238" model="ubc_paises">
+		<field name="id">238</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">584</field>
+		<field name="nombre">Islas Marshall</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_239" model="ubc_paises">
+		<field name="id">239</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">581</field>
+		<field name="nombre">Islas Ultramarinas de EE UU</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_240" model="ubc_paises">
+		<field name="id">240</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">296</field>
+		<field name="nombre">Kiribati</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_241" model="ubc_paises">
+		<field name="id">241</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">583</field>
+		<field name="nombre">Estados Federado de Micronesia</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_242" model="ubc_paises">
+		<field name="id">242</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">520</field>
+		<field name="nombre">Nauru</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_243" model="ubc_paises">
+		<field name="id">243</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">585</field>
+		<field name="nombre">Palau</field>
+		<field name="descripcion">Micronesia</field>
+	</record>
+	<record id="pai_244" model="ubc_paises">
+		<field name="id">244</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">184</field>
+		<field name="nombre">Islas Cook</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_245" model="ubc_paises">
+		<field name="id">245</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">876</field>
+		<field name="nombre">Islas Wallis y Futuna</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_246" model="ubc_paises">
+		<field name="id">246</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">570</field>
+		<field name="nombre">Niue</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_247" model="ubc_paises">
+		<field name="id">247</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">612</field>
+		<field name="nombre">Pitcairn</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_248" model="ubc_paises">
+		<field name="id">248</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">258</field>
+		<field name="nombre">Polinesia Francesa</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_249" model="ubc_paises">
+		<field name="id">249</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Samoa Americana</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_250" model="ubc_paises">
+		<field name="id">250</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">882</field>
+		<field name="nombre">Samoa</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_251" model="ubc_paises">
+		<field name="id">251</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">772</field>
+		<field name="nombre">Tokelau</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_252" model="ubc_paises">
+		<field name="id">252</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">776</field>
+		<field name="nombre">Tonga</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_253" model="ubc_paises">
+		<field name="id">253</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">798</field>
+		<field name="nombre">Tuvalu</field>
+		<field name="descripcion">Polinesia</field>
+	</record>
+	<record id="pai_254" model="ubc_paises">
+		<field name="id">254</field>
+		<field name="continente_id">5</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Antártida</field>
+		<field name="descripcion">Antártida"</field>
+	</record>
+</data>
+</openerp>

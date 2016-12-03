@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creado por BachacoVE-->
+<!--Friday 22nd of January 2016 12:03:07 PM-->
+<openerp>
+<data>
+	<record id="umu_1" model="ubc_municipios">
+		<field name="id">1</field>
+		<field name="estado_id">1</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Caracas</field>
+	</record>
+	<record id="umu_2" model="ubc_municipios">
+		<field name="id">2</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Alto Orinoco</field>
+		<field name="ciudad">LaEsmeralda</field>
+	</record>
+	<record id="umu_3" model="ubc_municipios">
+		<field name="id">3</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Atabapo</field>
+		<field name="ciudad">SanFernandodeAtabapo</field>
+	</record>
+	<record id="umu_4" model="ubc_municipios">
+		<field name="id">4</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Atures</field>
+		<field name="ciudad">PuertoAyacucho</field>
+	</record>
+	<record id="umu_5" model="ubc_municipios">
+		<field name="id">5</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Autana</field>
+		<field name="ciudad">IslaRatón</field>
+	</record>
+	<record id="umu_6" model="ubc_municipios">
+		<field name="id">6</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Maroa</field>
+		<field name="ciudad">Maroa</field>
+	</record>
+	<record id="umu_7" model="ubc_municipios">
+		<field name="id">7</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Manapiare</field>
+		<field name="ciudad">SanJuandeManapiare</field>
+	</record>
+	<record id="umu_8" model="ubc_municipios">
+		<field name="id">8</field>
+		<field name="estado_id">2</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Río Negro</field>
+		<field name="ciudad">SanCarlosdeRíoNegro</field>
+	</record>
+	<record id="umu_9" model="ubc_municipios">
+		<field name="id">9</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Anaco</field>
+		<field name="ciudad">Anaco</field>
+	</record>
+	<record id="umu_10" model="ubc_municipios">
+		<field name="id">10</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Aragua</field>
+		<field name="ciudad">AraguadeBarcelona</field>
+	</record>
+	<record id="umu_11" model="ubc_municipios">
+		<field name="id">11</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Fernando de Peñalver</field>
+		<field name="ciudad">PuertoPíritu</field>
+	</record>
+	<record id="umu_12" model="ubc_municipios">
+		<field name="id">12</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Franciscodel Carmen Carvajal</field>
+		<field name="ciudad">ValledeGuanape</field>
+	</record>
+	<record id="umu_13" model="ubc_municipios">
+		<field name="id">13</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Francisco de Miranda</field>
+		<field name="ciudad">Pariaguán</field>
+	</record>
+	<record id="umu_14" model="ubc_municipios">
+		<field name="id">14</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Guanta</field>
+		<field name="ciudad">Guanta</field>
+	</record>
+	<record id="umu_15" model="ubc_municipios">
+		<field name="id">15</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Independencia</field>
+		<field name="ciudad">Soledad</field>
+	</record>
+	<record id="umu_16" model="ubc_municipios">
+		<field name="id">16</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Juan Antonio Sotillo</field>
+		<field name="ciudad">PuertoLaCruz</field>
+	</record>
+	<record id="umu_17" model="ubc_municipios">
+		<field name="id">17</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Juan Manuel Cajigal</field>
+		<field name="ciudad">Onoto</field>
+	</record>
+	<record id="umu_18" model="ubc_municipios">
+		<field name="id">18</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">10</field>
+		<field name="nombre">José Gregorio Monagas</field>
+		<field name="ciudad">Mapire</field>
+	</record>
+	<record id="umu_19" model="ubc_municipios">
+		<field name="id">19</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Libertad</field>
+		<field name="ciudad">SanMateo</field>
+	</record>
+	<record id="umu_20" model="ubc_municipios">
+		<field name="id">20</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Manuel Ezequiel Bruzual</field>
+		<field name="ciudad">Clarines</field>
+	</record>
+	<record id="umu_21" model="ubc_municipios">
+		<field name="id">21</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Pedro María Freites</field>
+		<field name="ciudad">Cantaura</field>
+	</record>
+	<record id="umu_22" model="ubc_municipios">
+		<field name="id">22</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Píritu</field>
+		<field name="ciudad">Píritu</field>
+	</record>
+	<record id="umu_23" model="ubc_municipios">
+		<field name="id">23</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">15</field>
+		<field name="nombre">San José de Guanipa</field>
+		<field name="ciudad">SanJosédeGuanipa(ElTigrito)</field>
+	</record>
+	<record id="umu_24" model="ubc_municipios">
+		<field name="id">24</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">16</field>
+		<field name="nombre">San Juan de Capistrano</field>
+		<field name="ciudad">BocadeUchire</field>
+	</record>
+	<record id="umu_25" model="ubc_municipios">
+		<field name="id">25</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Santa Ana</field>
+		<field name="ciudad">SantaAna</field>
+	</record>
+	<record id="umu_26" model="ubc_municipios">
+		<field name="id">26</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Simón Bolívar</field>
+		<field name="ciudad">Barcelona</field>
+	</record>
+	<record id="umu_27" model="ubc_municipios">
+		<field name="id">27</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Simón Rodríguez</field>
+		<field name="ciudad">ElTigre</field>
+	</record>
+	<record id="umu_28" model="ubc_municipios">
+		<field name="id">28</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Sir Arthur Mc Gregor</field>
+		<field name="ciudad">ElChaparro</field>
+	</record>
+	<record id="umu_29" model="ubc_municipios">
+		<field name="id">29</field>
+		<field name="estado_id">3</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Turistico Diego Bautista Urbaneja</field>
+		<field name="ciudad">Lecherías</field>
+	</record>
+	<record id="umu_30" model="ubc_municipios">
+		<field name="id">30</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Achaguas</field>
+		<field name="ciudad">Achaguas</field>
+	</record>
+	<record id="umu_31" model="ubc_municipios">
+		<field name="id">31</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Biruaca</field>
+		<field name="ciudad">Biruaca</field>
+	</record>
+	<record id="umu_32" model="ubc_municipios">
+		<field name="id">32</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Muñoz</field>
+		<field name="ciudad">Bruzual</field>
+	</record>
+	<record id="umu_33" model="ubc_municipios">
+		<field name="id">33</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Páez</field>
+		<field name="ciudad">Guasdualito</field>
+	</record>
+	<record id="umu_34" model="ubc_municipios">
+		<field name="id">34</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Pedro Camejo</field>
+		<field name="ciudad">SanJuandePayara</field>
+	</record>
+	<record id="umu_35" model="ubc_municipios">
+		<field name="id">35</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Rómulo Gallegos</field>
+		<field name="ciudad">Elorza</field>
+	</record>
+	<record id="umu_36" model="ubc_municipios">
+		<field name="id">36</field>
+		<field name="estado_id">4</field>
+		<field name="codigo">7</field>
+		<field name="nombre">San Fernando</field>
+		<field name="ciudad">SanFernandodeApure</field>
+	</record>
+	<record id="umu_37" model="ubc_municipios">
+		<field name="id">37</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">SanMateo</field>
+	</record>
+	<record id="umu_38" model="ubc_municipios">
+		<field name="id">38</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Camatagua</field>
+		<field name="ciudad">Camatagua</field>
+	</record>
+	<record id="umu_39" model="ubc_municipios">
+		<field name="id">39</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Girardot</field>
+		<field name="ciudad">Maracay</field>
+	</record>
+	<record id="umu_40" model="ubc_municipios">
+		<field name="id">40</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">4</field>
+		<field name="nombre">José Angel Lamas</field>
+		<field name="ciudad">SantaCruz</field>
+	</record>
+	<record id="umu_41" model="ubc_municipios">
+		<field name="id">41</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">5</field>
+		<field name="nombre">José Félix Ribas</field>
+		<field name="ciudad">LaVictoria</field>
+	</record>
+	<record id="umu_42" model="ubc_municipios">
+		<field name="id">42</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">6</field>
+		<field name="nombre">José Rafael Revenga</field>
+		<field name="ciudad">ElConsejo</field>
+	</record>
+	<record id="umu_43" model="ubc_municipios">
+		<field name="id">43</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">PaloNegro</field>
+	</record>
+	<record id="umu_44" model="ubc_municipios">
+		<field name="id">44</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Mario Briceño Iragorry</field>
+		<field name="ciudad">ElLimón</field>
+	</record>
+	<record id="umu_45" model="ubc_municipios">
+		<field name="id">45</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">9</field>
+		<field name="nombre">San Casimiro</field>
+		<field name="ciudad">SanCasimiro</field>
+	</record>
+	<record id="umu_46" model="ubc_municipios">
+		<field name="id">46</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">10</field>
+		<field name="nombre">San Sebastián</field>
+		<field name="ciudad">SanSebastián</field>
+	</record>
+	<record id="umu_47" model="ubc_municipios">
+		<field name="id">47</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Santiago Mariño</field>
+		<field name="ciudad">Turmero</field>
+	</record>
+	<record id="umu_48" model="ubc_municipios">
+		<field name="id">48</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Santos Michelena</field>
+		<field name="ciudad">LasTejerías</field>
+	</record>
+	<record id="umu_49" model="ubc_municipios">
+		<field name="id">49</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Cagua</field>
+	</record>
+	<record id="umu_50" model="ubc_municipios">
+		<field name="id">50</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Tovar</field>
+		<field name="ciudad">LaColoniaTovar</field>
+	</record>
+	<record id="umu_51" model="ubc_municipios">
+		<field name="id">51</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Urdaneta</field>
+		<field name="ciudad">Barbacoas</field>
+	</record>
+	<record id="umu_52" model="ubc_municipios">
+		<field name="id">52</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Zamora</field>
+		<field name="ciudad">VilladeCura</field>
+	</record>
+	<record id="umu_53" model="ubc_municipios">
+		<field name="id">53</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Francisco Linares Alcántara</field>
+		<field name="ciudad">SantaRita</field>
+	</record>
+	<record id="umu_54" model="ubc_municipios">
+		<field name="id">54</field>
+		<field name="estado_id">5</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Ocumare de La Costa de Oro</field>
+		<field name="ciudad">OcumaredelaCosta</field>
+	</record>
+	<record id="umu_55" model="ubc_municipios">
+		<field name="id">55</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Alberto Arvelo Torrealba</field>
+		<field name="ciudad">Sabaneta</field>
+	</record>
+	<record id="umu_56" model="ubc_municipios">
+		<field name="id">56</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Antonio José de Sucre</field>
+		<field name="ciudad">Socopó</field>
+	</record>
+	<record id="umu_57" model="ubc_municipios">
+		<field name="id">57</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Arismendi</field>
+		<field name="ciudad">Arismendi</field>
+	</record>
+	<record id="umu_58" model="ubc_municipios">
+		<field name="id">58</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Barinas</field>
+		<field name="ciudad">Barinas</field>
+	</record>
+	<record id="umu_59" model="ubc_municipios">
+		<field name="id">59</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">Barinitas</field>
+	</record>
+	<record id="umu_60" model="ubc_municipios">
+		<field name="id">60</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Cruz Paredes</field>
+		<field name="ciudad">Barrancas</field>
+	</record>
+	<record id="umu_61" model="ubc_municipios">
+		<field name="id">61</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Ezequiel Zamora</field>
+		<field name="ciudad">SantaBárbara</field>
+	</record>
+	<record id="umu_62" model="ubc_municipios">
+		<field name="id">62</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Obispos</field>
+		<field name="ciudad">Obispos</field>
+	</record>
+	<record id="umu_63" model="ubc_municipios">
+		<field name="id">63</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Pedraza</field>
+		<field name="ciudad">CiudadBolivia</field>
+	</record>
+	<record id="umu_64" model="ubc_municipios">
+		<field name="id">64</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Rojas</field>
+		<field name="ciudad">Libertad</field>
+	</record>
+	<record id="umu_65" model="ubc_municipios">
+		<field name="id">65</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Sosa</field>
+		<field name="ciudad">CiudaddeNutrias</field>
+	</record>
+	<record id="umu_66" model="ubc_municipios">
+		<field name="id">66</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Andrés Eloy Blanco</field>
+		<field name="ciudad">ElCantón</field>
+	</record>
+	<record id="umu_67" model="ubc_municipios">
+		<field name="id">67</field>
+		<field name="estado_id">6</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Jose Antonio Paez</field>
+		<field name="ciudad">Jose Antonio Paez</field>
+	</record>
+	<record id="umu_68" model="ubc_municipios">
+		<field name="id">68</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Caroní</field>
+		<field name="ciudad">CiudadGuayana</field>
+	</record>
+	<record id="umu_69" model="ubc_municipios">
+		<field name="id">69</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Cedeño</field>
+		<field name="ciudad">CaicaradelOrinoco</field>
+	</record>
+	<record id="umu_70" model="ubc_municipios">
+		<field name="id">70</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">3</field>
+		<field name="nombre">El Callao</field>
+		<field name="ciudad">ElCallao</field>
+	</record>
+	<record id="umu_71" model="ubc_municipios">
+		<field name="id">71</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Gran Sabana</field>
+		<field name="ciudad">SantaElenadeUairén</field>
+	</record>
+	<record id="umu_72" model="ubc_municipios">
+		<field name="id">72</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Heres</field>
+		<field name="ciudad">CiudadBolívar</field>
+	</record>
+	<record id="umu_73" model="ubc_municipios">
+		<field name="id">73</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Piar</field>
+		<field name="ciudad">Upata</field>
+	</record>
+	<record id="umu_74" model="ubc_municipios">
+		<field name="id">74</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Raúl Leoni</field>
+		<field name="ciudad">CiudadPiar</field>
+	</record>
+	<record id="umu_75" model="ubc_municipios">
+		<field name="id">75</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Roscio</field>
+		<field name="ciudad">Guasipati</field>
+	</record>
+	<record id="umu_76" model="ubc_municipios">
+		<field name="id">76</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Sifontes</field>
+		<field name="ciudad">Tumeremo</field>
+	</record>
+	<record id="umu_77" model="ubc_municipios">
+		<field name="id">77</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Maripa</field>
+	</record>
+	<record id="umu_78" model="ubc_municipios">
+		<field name="id">78</field>
+		<field name="estado_id">7</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Padre Pedro Chien</field>
+		<field name="ciudad">ElPalmar</field>
+	</record>
+	<record id="umu_79" model="ubc_municipios">
+		<field name="id">79</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Bejuma</field>
+		<field name="ciudad">Bejuma</field>
+	</record>
+	<record id="umu_80" model="ubc_municipios">
+		<field name="id">80</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Carlos Arvelo</field>
+		<field name="ciudad">Güigüe</field>
+	</record>
+	<record id="umu_81" model="ubc_municipios">
+		<field name="id">81</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Diego Ibarra</field>
+		<field name="ciudad">Mariara</field>
+	</record>
+	<record id="umu_82" model="ubc_municipios">
+		<field name="id">82</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Guacara</field>
+		<field name="ciudad">Guacara</field>
+	</record>
+	<record id="umu_83" model="ubc_municipios">
+		<field name="id">83</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Juan José Mora</field>
+		<field name="ciudad">Morón</field>
+	</record>
+	<record id="umu_84" model="ubc_municipios">
+		<field name="id">84</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Tocuyito</field>
+	</record>
+	<record id="umu_85" model="ubc_municipios">
+		<field name="id">85</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Los Guayos</field>
+		<field name="ciudad">LosGuayos</field>
+	</record>
+	<record id="umu_86" model="ubc_municipios">
+		<field name="id">86</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Miranda</field>
+		<field name="ciudad">Miranda</field>
+	</record>
+	<record id="umu_87" model="ubc_municipios">
+		<field name="id">87</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Montalbán</field>
+		<field name="ciudad">Montalbán</field>
+	</record>
+	<record id="umu_88" model="ubc_municipios">
+		<field name="id">88</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Naguanagua</field>
+		<field name="ciudad">Naguanagua</field>
+	</record>
+	<record id="umu_89" model="ubc_municipios">
+		<field name="id">89</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Puerto Cabello</field>
+		<field name="ciudad">PuertoCabello</field>
+	</record>
+	<record id="umu_90" model="ubc_municipios">
+		<field name="id">90</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">12</field>
+		<field name="nombre">San Diego</field>
+		<field name="ciudad">SanDiego</field>
+	</record>
+	<record id="umu_91" model="ubc_municipios">
+		<field name="id">91</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">13</field>
+		<field name="nombre">San Joaquín</field>
+		<field name="ciudad">SanJoaquín</field>
+	</record>
+	<record id="umu_92" model="ubc_municipios">
+		<field name="id">92</field>
+		<field name="estado_id">8</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Valencia</field>
+		<field name="ciudad">Valencia</field>
+	</record>
+	<record id="umu_93" model="ubc_municipios">
+		<field name="id">93</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Anzoátegui</field>
+		<field name="ciudad">Cojedes</field>
+	</record>
+	<record id="umu_94" model="ubc_municipios">
+		<field name="id">94</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Falcón</field>
+		<field name="ciudad">Tinaquillo</field>
+	</record>
+	<record id="umu_95" model="ubc_municipios">
+		<field name="id">95</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Girardot</field>
+		<field name="ciudad">ElBaúl</field>
+	</record>
+	<record id="umu_96" model="ubc_municipios">
+		<field name="id">96</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Lima Blanco</field>
+		<field name="ciudad">Macapo</field>
+	</record>
+	<record id="umu_97" model="ubc_municipios">
+		<field name="id">97</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Pao de San Juan Bautista</field>
+		<field name="ciudad">ElPao</field>
+	</record>
+	<record id="umu_98" model="ubc_municipios">
+		<field name="id">98</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Ricaurte</field>
+		<field name="ciudad">Libertad</field>
+	</record>
+	<record id="umu_99" model="ubc_municipios">
+		<field name="id">99</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Rómulo Gallegos</field>
+		<field name="ciudad">LasVegas</field>
+	</record>
+	<record id="umu_100" model="ubc_municipios">
+		<field name="id">100</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">8</field>
+		<field name="nombre">San Carlos</field>
+		<field name="ciudad">SanCarlos</field>
+	</record>
+	<record id="umu_101" model="ubc_municipios">
+		<field name="id">101</field>
+		<field name="estado_id">9</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Tinaco</field>
+		<field name="ciudad">Tinaco</field>
+	</record>
+	<record id="umu_102" model="ubc_municipios">
+		<field name="id">102</field>
+		<field name="estado_id">10</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Antonio Díaz</field>
+		<field name="ciudad">Curiapo</field>
+	</record>
+	<record id="umu_103" model="ubc_municipios">
+		<field name="id">103</field>
+		<field name="estado_id">10</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Casacoima</field>
+		<field name="ciudad">SierraImataca</field>
+	</record>
+	<record id="umu_104" model="ubc_municipios">
+		<field name="id">104</field>
+		<field name="estado_id">10</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Pedernales</field>
+		<field name="ciudad">Pedernales</field>
+	</record>
+	<record id="umu_105" model="ubc_municipios">
+		<field name="id">105</field>
+		<field name="estado_id">10</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Tucupita</field>
+		<field name="ciudad">Tucupita</field>
+	</record>
+	<record id="umu_106" model="ubc_municipios">
+		<field name="id">106</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Acosta</field>
+		<field name="ciudad">SanJuandelosCayos</field>
+	</record>
+	<record id="umu_107" model="ubc_municipios">
+		<field name="id">107</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">SanLuis</field>
+	</record>
+	<record id="umu_108" model="ubc_municipios">
+		<field name="id">108</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Buchivacoa</field>
+		<field name="ciudad">Capatárida</field>
+	</record>
+	<record id="umu_109" model="ubc_municipios">
+		<field name="id">109</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Cacique Manaure</field>
+		<field name="ciudad">Yaracal</field>
+	</record>
+	<record id="umu_110" model="ubc_municipios">
+		<field name="id">110</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Carirubana</field>
+		<field name="ciudad">PuntoFijo</field>
+	</record>
+	<record id="umu_111" model="ubc_municipios">
+		<field name="id">111</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Colina</field>
+		<field name="ciudad">LaVeladeCoro</field>
+	</record>
+	<record id="umu_112" model="ubc_municipios">
+		<field name="id">112</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Dabajuro</field>
+		<field name="ciudad">Dabajuro</field>
+	</record>
+	<record id="umu_113" model="ubc_municipios">
+		<field name="id">113</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Democracia</field>
+		<field name="ciudad">Pedregal</field>
+	</record>
+	<record id="umu_114" model="ubc_municipios">
+		<field name="id">114</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Falcón</field>
+		<field name="ciudad">PuebloNuevo</field>
+	</record>
+	<record id="umu_115" model="ubc_municipios">
+		<field name="id">115</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Federación</field>
+		<field name="ciudad">Churuguara</field>
+	</record>
+	<record id="umu_116" model="ubc_municipios">
+		<field name="id">116</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Jacura</field>
+		<field name="ciudad">Jacura</field>
+	</record>
+	<record id="umu_117" model="ubc_municipios">
+		<field name="id">117</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Los Taques</field>
+		<field name="ciudad">SantaCruzdeLosTaques</field>
+	</record>
+	<record id="umu_118" model="ubc_municipios">
+		<field name="id">118</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Mauroa</field>
+		<field name="ciudad">MenedeMauroa</field>
+	</record>
+	<record id="umu_119" model="ubc_municipios">
+		<field name="id">119</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Miranda</field>
+		<field name="ciudad">SantaAnadeCoro</field>
+	</record>
+	<record id="umu_120" model="ubc_municipios">
+		<field name="id">120</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Monseñor Iturriza</field>
+		<field name="ciudad">Chichiriviche</field>
+	</record>
+	<record id="umu_121" model="ubc_municipios">
+		<field name="id">121</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Palmasola</field>
+		<field name="ciudad">Palmasola</field>
+	</record>
+	<record id="umu_122" model="ubc_municipios">
+		<field name="id">122</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Petit</field>
+		<field name="ciudad">Cabure</field>
+	</record>
+	<record id="umu_123" model="ubc_municipios">
+		<field name="id">123</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Píritu</field>
+		<field name="ciudad">Píritu</field>
+	</record>
+	<record id="umu_124" model="ubc_municipios">
+		<field name="id">124</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">19</field>
+		<field name="nombre">San Francisco</field>
+		<field name="ciudad">Mirimire</field>
+	</record>
+	<record id="umu_125" model="ubc_municipios">
+		<field name="id">125</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Silva</field>
+		<field name="ciudad">Tucacas</field>
+	</record>
+	<record id="umu_126" model="ubc_municipios">
+		<field name="id">126</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">LaCruzdeTaratara</field>
+	</record>
+	<record id="umu_127" model="ubc_municipios">
+		<field name="id">127</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">22</field>
+		<field name="nombre">Tocópero</field>
+		<field name="ciudad">Tocópero</field>
+	</record>
+	<record id="umu_128" model="ubc_municipios">
+		<field name="id">128</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">23</field>
+		<field name="nombre">Unión</field>
+		<field name="ciudad">SantaCruzdeBucaral</field>
+	</record>
+	<record id="umu_129" model="ubc_municipios">
+		<field name="id">129</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">24</field>
+		<field name="nombre">Urumaco</field>
+		<field name="ciudad">Urumaco</field>
+	</record>
+	<record id="umu_130" model="ubc_municipios">
+		<field name="id">130</field>
+		<field name="estado_id">11</field>
+		<field name="codigo">25</field>
+		<field name="nombre">Zamora</field>
+		<field name="ciudad">PuertoCumarebo</field>
+	</record>
+	<record id="umu_131" model="ubc_municipios">
+		<field name="id">131</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Camaguán</field>
+		<field name="ciudad">Camaguán</field>
+	</record>
+	<record id="umu_132" model="ubc_municipios">
+		<field name="id">132</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Chaguaramas</field>
+		<field name="ciudad">Chaguaramas</field>
+	</record>
+	<record id="umu_133" model="ubc_municipios">
+		<field name="id">133</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">3</field>
+		<field name="nombre">El Socorro</field>
+		<field name="ciudad">ElSocorro</field>
+	</record>
+	<record id="umu_134" model="ubc_municipios">
+		<field name="id">134</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">4</field>
+		<field name="nombre">San Gerónimo de Guayabal</field>
+		<field name="ciudad">Guayabal</field>
+	</record>
+	<record id="umu_135" model="ubc_municipios">
+		<field name="id">135</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Leonardo Infante</field>
+		<field name="ciudad">ValledeLaPascua</field>
+	</record>
+	<record id="umu_136" model="ubc_municipios">
+		<field name="id">136</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Las Mercedes8/</field>
+		<field name="ciudad">LasMercedes</field>
+	</record>
+	<record id="umu_137" model="ubc_municipios">
+		<field name="id">137</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Julián Mellado</field>
+		<field name="ciudad">ElSombrero</field>
+	</record>
+	<record id="umu_138" model="ubc_municipios">
+		<field name="id">138</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Francisco de Miranda</field>
+		<field name="ciudad">Calabozo</field>
+	</record>
+	<record id="umu_139" model="ubc_municipios">
+		<field name="id">139</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">9</field>
+		<field name="nombre">José Tadeo Monagas</field>
+		<field name="ciudad">AltagraciadeOrituco</field>
+	</record>
+	<record id="umu_140" model="ubc_municipios">
+		<field name="id">140</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Ortiz</field>
+		<field name="ciudad">Ortiz</field>
+	</record>
+	<record id="umu_141" model="ubc_municipios">
+		<field name="id">141</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">11</field>
+		<field name="nombre">José Félix Ribas</field>
+		<field name="ciudad">Tucupido</field>
+	</record>
+	<record id="umu_142" model="ubc_municipios">
+		<field name="id">142</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Juan Germán Roscio</field>
+		<field name="ciudad">SanJuandelosMorros</field>
+	</record>
+	<record id="umu_143" model="ubc_municipios">
+		<field name="id">143</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">13</field>
+		<field name="nombre">San José de Guaribe</field>
+		<field name="ciudad">SanJosédeGuaribe</field>
+	</record>
+	<record id="umu_144" model="ubc_municipios">
+		<field name="id">144</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Santa María de Ipire</field>
+		<field name="ciudad">SantaMaríadeIpire</field>
+	</record>
+	<record id="umu_145" model="ubc_municipios">
+		<field name="id">145</field>
+		<field name="estado_id">12</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Pedro Zaraza</field>
+		<field name="ciudad">Zaraza</field>
+	</record>
+	<record id="umu_146" model="ubc_municipios">
+		<field name="id">146</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Andrés Eloy Blanco</field>
+		<field name="ciudad">Sanare</field>
+	</record>
+	<record id="umu_147" model="ubc_municipios">
+		<field name="id">147</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Crespo</field>
+		<field name="ciudad">Duaca</field>
+	</record>
+	<record id="umu_148" model="ubc_municipios">
+		<field name="id">148</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Iribarren</field>
+		<field name="ciudad">Barquisimeto</field>
+	</record>
+	<record id="umu_149" model="ubc_municipios">
+		<field name="id">149</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Jiménez</field>
+		<field name="ciudad">Quíbor</field>
+	</record>
+	<record id="umu_150" model="ubc_municipios">
+		<field name="id">150</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Morán</field>
+		<field name="ciudad">ElTocuyo</field>
+	</record>
+	<record id="umu_151" model="ubc_municipios">
+		<field name="id">151</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Palavecino</field>
+		<field name="ciudad">Cabudare</field>
+	</record>
+	<record id="umu_152" model="ubc_municipios">
+		<field name="id">152</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Simón Planas</field>
+		<field name="ciudad">Sarare</field>
+	</record>
+	<record id="umu_153" model="ubc_municipios">
+		<field name="id">153</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Torres</field>
+		<field name="ciudad">Carora</field>
+	</record>
+	<record id="umu_154" model="ubc_municipios">
+		<field name="id">154</field>
+		<field name="estado_id">13</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Urdaneta</field>
+		<field name="ciudad">Siquisique</field>
+	</record>
+	<record id="umu_155" model="ubc_municipios">
+		<field name="id">155</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Alberto Adriani</field>
+		<field name="ciudad">ElVigía</field>
+	</record>
+	<record id="umu_156" model="ubc_municipios">
+		<field name="id">156</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Andrés Bello</field>
+		<field name="ciudad">LaAzulita</field>
+	</record>
+	<record id="umu_157" model="ubc_municipios">
+		<field name="id">157</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Antonio Pinto Salinas</field>
+		<field name="ciudad">SantaCruzdeMora</field>
+	</record>
+	<record id="umu_158" model="ubc_municipios">
+		<field name="id">158</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Aricagua</field>
+		<field name="ciudad">Aricagua</field>
+	</record>
+	<record id="umu_159" model="ubc_municipios">
+		<field name="id">159</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Arzobispo Chacón</field>
+		<field name="ciudad">Canaguá</field>
+	</record>
+	<record id="umu_160" model="ubc_municipios">
+		<field name="id">160</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Campo Elías</field>
+		<field name="ciudad">Ejido</field>
+	</record>
+	<record id="umu_161" model="ubc_municipios">
+		<field name="id">161</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Caracciolo Parra Olmedo</field>
+		<field name="ciudad">Tucaní</field>
+	</record>
+	<record id="umu_162" model="ubc_municipios">
+		<field name="id">162</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Cardenal Quintero</field>
+		<field name="ciudad">SantoDomingo</field>
+	</record>
+	<record id="umu_163" model="ubc_municipios">
+		<field name="id">163</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Guaraque</field>
+		<field name="ciudad">Guaraque</field>
+	</record>
+	<record id="umu_164" model="ubc_municipios">
+		<field name="id">164</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Julio César Salas</field>
+		<field name="ciudad">Arapuey</field>
+	</record>
+	<record id="umu_165" model="ubc_municipios">
+		<field name="id">165</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Justo Briceño</field>
+		<field name="ciudad">Torondoy</field>
+	</record>
+	<record id="umu_166" model="ubc_municipios">
+		<field name="id">166</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Mérida</field>
+	</record>
+	<record id="umu_167" model="ubc_municipios">
+		<field name="id">167</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Miranda</field>
+		<field name="ciudad">Timotes</field>
+	</record>
+	<record id="umu_168" model="ubc_municipios">
+		<field name="id">168</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Obispo Ramos de Lora</field>
+		<field name="ciudad">SantaElenadeArenales</field>
+	</record>
+	<record id="umu_169" model="ubc_municipios">
+		<field name="id">169</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Padre Noguera</field>
+		<field name="ciudad">SantaMaríadeCaparo</field>
+	</record>
+	<record id="umu_170" model="ubc_municipios">
+		<field name="id">170</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Pueblo Llano</field>
+		<field name="ciudad">PuebloLlano</field>
+	</record>
+	<record id="umu_171" model="ubc_municipios">
+		<field name="id">171</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Rangel</field>
+		<field name="ciudad">Mucuchíes</field>
+	</record>
+	<record id="umu_172" model="ubc_municipios">
+		<field name="id">172</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Rivas Dávila</field>
+		<field name="ciudad">Bailadores</field>
+	</record>
+	<record id="umu_173" model="ubc_municipios">
+		<field name="id">173</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Santos Marquina</field>
+		<field name="ciudad">Tabay</field>
+	</record>
+	<record id="umu_174" model="ubc_municipios">
+		<field name="id">174</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Lagunillas</field>
+	</record>
+	<record id="umu_175" model="ubc_municipios">
+		<field name="id">175</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Tovar</field>
+		<field name="ciudad">Tovar</field>
+	</record>
+	<record id="umu_176" model="ubc_municipios">
+		<field name="id">176</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">22</field>
+		<field name="nombre">Tulio Febres Cordero</field>
+		<field name="ciudad">NuevaBolivia</field>
+	</record>
+	<record id="umu_177" model="ubc_municipios">
+		<field name="id">177</field>
+		<field name="estado_id">14</field>
+		<field name="codigo">23</field>
+		<field name="nombre">Zea</field>
+		<field name="ciudad">Zea</field>
+	</record>
+	<record id="umu_178" model="ubc_municipios">
+		<field name="id">178</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Acevedo</field>
+		<field name="ciudad">Caucagua</field>
+	</record>
+	<record id="umu_179" model="ubc_municipios">
+		<field name="id">179</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Andrés Bello</field>
+		<field name="ciudad">SanJosédeBarlovento</field>
+	</record>
+	<record id="umu_180" model="ubc_municipios">
+		<field name="id">180</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Baruta</field>
+		<field name="ciudad">NuestraSeñoradelRosariodeBaruta</field>
+	</record>
+	<record id="umu_181" model="ubc_municipios">
+		<field name="id">181</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Brión</field>
+		<field name="ciudad">Higuerote</field>
+	</record>
+	<record id="umu_182" model="ubc_municipios">
+		<field name="id">182</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Buroz</field>
+		<field name="ciudad">Mamporal</field>
+	</record>
+	<record id="umu_183" model="ubc_municipios">
+		<field name="id">183</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Carrizal</field>
+		<field name="ciudad">Carrizal</field>
+	</record>
+	<record id="umu_184" model="ubc_municipios">
+		<field name="id">184</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Chacao</field>
+		<field name="ciudad">Chacao</field>
+	</record>
+	<record id="umu_185" model="ubc_municipios">
+		<field name="id">185</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Cristóbal Rojas</field>
+		<field name="ciudad">Charallave</field>
+	</record>
+	<record id="umu_186" model="ubc_municipios">
+		<field name="id">186</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">9</field>
+		<field name="nombre">El Hatillo</field>
+		<field name="ciudad">ElHatillo</field>
+	</record>
+	<record id="umu_187" model="ubc_municipios">
+		<field name="id">187</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Guaicaipuro</field>
+		<field name="ciudad">LosTeques</field>
+	</record>
+	<record id="umu_188" model="ubc_municipios">
+		<field name="id">188</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Independencia</field>
+		<field name="ciudad">SantaTeresadelTuy</field>
+	</record>
+	<record id="umu_189" model="ubc_municipios">
+		<field name="id">189</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Lander</field>
+		<field name="ciudad">OcumaredelTuy</field>
+	</record>
+	<record id="umu_190" model="ubc_municipios">
+		<field name="id">190</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Los Salias</field>
+		<field name="ciudad">SanAntoniodeLosAltos</field>
+	</record>
+	<record id="umu_191" model="ubc_municipios">
+		<field name="id">191</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Páez</field>
+		<field name="ciudad">RíoChico</field>
+	</record>
+	<record id="umu_192" model="ubc_municipios">
+		<field name="id">192</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Paz Castillo</field>
+		<field name="ciudad">SantaLucía</field>
+	</record>
+	<record id="umu_193" model="ubc_municipios">
+		<field name="id">193</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Pedro Gual</field>
+		<field name="ciudad">Cúpira</field>
+	</record>
+	<record id="umu_194" model="ubc_municipios">
+		<field name="id">194</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Plaza</field>
+		<field name="ciudad">Guarenas</field>
+	</record>
+	<record id="umu_195" model="ubc_municipios">
+		<field name="id">195</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Simón Bolívar</field>
+		<field name="ciudad">SanFranciscodeYare</field>
+	</record>
+	<record id="umu_196" model="ubc_municipios">
+		<field name="id">196</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Petare</field>
+	</record>
+	<record id="umu_197" model="ubc_municipios">
+		<field name="id">197</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Urdaneta</field>
+		<field name="ciudad">Cúa</field>
+	</record>
+	<record id="umu_198" model="ubc_municipios">
+		<field name="id">198</field>
+		<field name="estado_id">15</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Zamora</field>
+		<field name="ciudad">Guatire</field>
+	</record>
+	<record id="umu_199" model="ubc_municipios">
+		<field name="id">199</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Acosta</field>
+		<field name="ciudad">SanAntonio</field>
+	</record>
+	<record id="umu_200" model="ubc_municipios">
+		<field name="id">200</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Aguasay</field>
+		<field name="ciudad">Aguasay</field>
+	</record>
+	<record id="umu_201" model="ubc_municipios">
+		<field name="id">201</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">Caripito</field>
+	</record>
+	<record id="umu_202" model="ubc_municipios">
+		<field name="id">202</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Caripe</field>
+		<field name="ciudad">Caripe</field>
+	</record>
+	<record id="umu_203" model="ubc_municipios">
+		<field name="id">203</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Cedeño</field>
+		<field name="ciudad">Caicara</field>
+	</record>
+	<record id="umu_204" model="ubc_municipios">
+		<field name="id">204</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Ezequiel Zamora</field>
+		<field name="ciudad">PuntadeMata</field>
+	</record>
+	<record id="umu_205" model="ubc_municipios">
+		<field name="id">205</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Temblador</field>
+	</record>
+	<record id="umu_206" model="ubc_municipios">
+		<field name="id">206</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Maturín</field>
+		<field name="ciudad">Maturín</field>
+	</record>
+	<record id="umu_207" model="ubc_municipios">
+		<field name="id">207</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Piar</field>
+		<field name="ciudad">Aragua</field>
+	</record>
+	<record id="umu_208" model="ubc_municipios">
+		<field name="id">208</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Punceres</field>
+		<field name="ciudad">Quiriquire</field>
+	</record>
+	<record id="umu_209" model="ubc_municipios">
+		<field name="id">209</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Santa Bárbara</field>
+		<field name="ciudad">SantaBárbara</field>
+	</record>
+	<record id="umu_210" model="ubc_municipios">
+		<field name="id">210</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Sotillo</field>
+		<field name="ciudad">Barrancas</field>
+	</record>
+	<record id="umu_211" model="ubc_municipios">
+		<field name="id">211</field>
+		<field name="estado_id">16</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Uracoa</field>
+		<field name="ciudad">Uracoa</field>
+	</record>
+	<record id="umu_212" model="ubc_municipios">
+		<field name="id">212</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Antolíndel Campo</field>
+		<field name="ciudad">LaPlazadeParaguachí</field>
+	</record>
+	<record id="umu_213" model="ubc_municipios">
+		<field name="id">213</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Arismendi</field>
+		<field name="ciudad">LaAsunción</field>
+	</record>
+	<record id="umu_214" model="ubc_municipios">
+		<field name="id">214</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Díaz</field>
+		<field name="ciudad">SanJuanBautista</field>
+	</record>
+	<record id="umu_215" model="ubc_municipios">
+		<field name="id">215</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">4</field>
+		<field name="nombre">García</field>
+		<field name="ciudad">ElValledelEspírituSanto</field>
+	</record>
+	<record id="umu_216" model="ubc_municipios">
+		<field name="id">216</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Gómez</field>
+		<field name="ciudad">SantaAna</field>
+	</record>
+	<record id="umu_217" model="ubc_municipios">
+		<field name="id">217</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Maneiro</field>
+		<field name="ciudad">Pampatar</field>
+	</record>
+	<record id="umu_218" model="ubc_municipios">
+		<field name="id">218</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Marcano</field>
+		<field name="ciudad">Juangriego</field>
+	</record>
+	<record id="umu_219" model="ubc_municipios">
+		<field name="id">219</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Mariño</field>
+		<field name="ciudad">Porlamar</field>
+	</record>
+	<record id="umu_220" model="ubc_municipios">
+		<field name="id">220</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Península de Macanao</field>
+		<field name="ciudad">BocadelRío</field>
+	</record>
+	<record id="umu_221" model="ubc_municipios">
+		<field name="id">221</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Tubores</field>
+		<field name="ciudad">PuntadePiedras</field>
+	</record>
+	<record id="umu_222" model="ubc_municipios">
+		<field name="id">222</field>
+		<field name="estado_id">17</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Villalba</field>
+		<field name="ciudad">SanPedrodeCoche</field>
+	</record>
+	<record id="umu_223" model="ubc_municipios">
+		<field name="id">223</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Agua Blanca</field>
+		<field name="ciudad">AguaBlanca</field>
+	</record>
+	<record id="umu_224" model="ubc_municipios">
+		<field name="id">224</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Araure</field>
+		<field name="ciudad">Araure</field>
+	</record>
+	<record id="umu_225" model="ubc_municipios">
+		<field name="id">225</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Esteller</field>
+		<field name="ciudad">Píritu</field>
+	</record>
+	<record id="umu_226" model="ubc_municipios">
+		<field name="id">226</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Guanare</field>
+		<field name="ciudad">Guanare</field>
+	</record>
+	<record id="umu_227" model="ubc_municipios">
+		<field name="id">227</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Guanarito</field>
+		<field name="ciudad">Guanarito</field>
+	</record>
+	<record id="umu_228" model="ubc_municipios">
+		<field name="id">228</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Monseñor José Vicente de Unda</field>
+		<field name="ciudad">ParaísodeChabasquén</field>
+	</record>
+	<record id="umu_229" model="ubc_municipios">
+		<field name="id">229</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Ospino</field>
+		<field name="ciudad">Ospino</field>
+	</record>
+	<record id="umu_230" model="ubc_municipios">
+		<field name="id">230</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Páez</field>
+		<field name="ciudad">Acarigua</field>
+	</record>
+	<record id="umu_231" model="ubc_municipios">
+		<field name="id">231</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">10</field>
+		<field name="nombre">San Genaro de Boconoito</field>
+		<field name="ciudad">Boconoito</field>
+	</record>
+	<record id="umu_232" model="ubc_municipios">
+		<field name="id">232</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">11</field>
+		<field name="nombre">San Rafael de Onoto</field>
+		<field name="ciudad">SanRafaeldeOnoto</field>
+	</record>
+	<record id="umu_233" model="ubc_municipios">
+		<field name="id">233</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Santa Rosalía</field>
+		<field name="ciudad">ElPlayón</field>
+	</record>
+	<record id="umu_234" model="ubc_municipios">
+		<field name="id">234</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Biscucuy</field>
+	</record>
+	<record id="umu_235" model="ubc_municipios">
+		<field name="id">235</field>
+		<field name="estado_id">18</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Turén</field>
+		<field name="ciudad">VillaBruzual</field>
+	</record>
+	<record id="umu_236" model="ubc_municipios">
+		<field name="id">236</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Andrés Eloy Blanco</field>
+		<field name="ciudad">Casanay</field>
+	</record>
+	<record id="umu_237" model="ubc_municipios">
+		<field name="id">237</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Andrés Mata</field>
+		<field name="ciudad">SanJosédeAerocuar</field>
+	</record>
+	<record id="umu_238" model="ubc_municipios">
+		<field name="id">238</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Arismendi</field>
+		<field name="ciudad">RíoCaribe</field>
+	</record>
+	<record id="umu_239" model="ubc_municipios">
+		<field name="id">239</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Benítez</field>
+		<field name="ciudad">ElPilar</field>
+	</record>
+	<record id="umu_240" model="ubc_municipios">
+		<field name="id">240</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Bermúdez</field>
+		<field name="ciudad">Carúpano</field>
+	</record>
+	<record id="umu_241" model="ubc_municipios">
+		<field name="id">241</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">Marigüitar</field>
+	</record>
+	<record id="umu_242" model="ubc_municipios">
+		<field name="id">242</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Cajigal</field>
+		<field name="ciudad">Yaguaraparo</field>
+	</record>
+	<record id="umu_243" model="ubc_municipios">
+		<field name="id">243</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Tunapuy</field>
+	</record>
+	<record id="umu_244" model="ubc_municipios">
+		<field name="id">244</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Mariño</field>
+		<field name="ciudad">Irapa</field>
+	</record>
+	<record id="umu_245" model="ubc_municipios">
+		<field name="id">245</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Mejía</field>
+		<field name="ciudad">SanAntoniodelGolfo</field>
+	</record>
+	<record id="umu_246" model="ubc_municipios">
+		<field name="id">246</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Montes</field>
+		<field name="ciudad">Cumanacoa</field>
+	</record>
+	<record id="umu_247" model="ubc_municipios">
+		<field name="id">247</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Ribero</field>
+		<field name="ciudad">Cariaco</field>
+	</record>
+	<record id="umu_248" model="ubc_municipios">
+		<field name="id">248</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Cumaná</field>
+	</record>
+	<record id="umu_249" model="ubc_municipios">
+		<field name="id">249</field>
+		<field name="estado_id">19</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Valdez</field>
+		<field name="ciudad">Güiria</field>
+	</record>
+	<record id="umu_250" model="ubc_municipios">
+		<field name="id">250</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Andrés Bello</field>
+		<field name="ciudad">Cordero</field>
+	</record>
+	<record id="umu_251" model="ubc_municipios">
+		<field name="id">251</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Antonio Rómulo Costa</field>
+		<field name="ciudad">LasMesas</field>
+	</record>
+	<record id="umu_252" model="ubc_municipios">
+		<field name="id">252</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Ayacucho</field>
+		<field name="ciudad">Colón</field>
+	</record>
+	<record id="umu_253" model="ubc_municipios">
+		<field name="id">253</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">SanAntoniodelTáchira</field>
+	</record>
+	<record id="umu_254" model="ubc_municipios">
+		<field name="id">254</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Cárdenas</field>
+		<field name="ciudad">Táriba</field>
+	</record>
+	<record id="umu_255" model="ubc_municipios">
+		<field name="id">255</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Córdoba</field>
+		<field name="ciudad">SantaAna</field>
+	</record>
+	<record id="umu_256" model="ubc_municipios">
+		<field name="id">256</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Fernández Feo</field>
+		<field name="ciudad">SanRafaeldelPiñal</field>
+	</record>
+	<record id="umu_257" model="ubc_municipios">
+		<field name="id">257</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Francisco de Miranda</field>
+		<field name="ciudad">SanJosédeBolívar</field>
+	</record>
+	<record id="umu_258" model="ubc_municipios">
+		<field name="id">258</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">9</field>
+		<field name="nombre">García de Hevia</field>
+		<field name="ciudad">LaFría</field>
+	</record>
+	<record id="umu_259" model="ubc_municipios">
+		<field name="id">259</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Guásimos</field>
+		<field name="ciudad">Palmira</field>
+	</record>
+	<record id="umu_260" model="ubc_municipios">
+		<field name="id">260</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Independencia</field>
+		<field name="ciudad">CapachoNuevo</field>
+	</record>
+	<record id="umu_261" model="ubc_municipios">
+		<field name="id">261</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Jáuregui</field>
+		<field name="ciudad">LaGrita</field>
+	</record>
+	<record id="umu_262" model="ubc_municipios">
+		<field name="id">262</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">13</field>
+		<field name="nombre">José María Vargas</field>
+		<field name="ciudad">ELCobre</field>
+	</record>
+	<record id="umu_263" model="ubc_municipios">
+		<field name="id">263</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Junín</field>
+		<field name="ciudad">Rubio</field>
+	</record>
+	<record id="umu_264" model="ubc_municipios">
+		<field name="id">264</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Libertad</field>
+		<field name="ciudad">CapachoViejo</field>
+	</record>
+	<record id="umu_265" model="ubc_municipios">
+		<field name="id">265</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Libertador</field>
+		<field name="ciudad">Abejales</field>
+	</record>
+	<record id="umu_266" model="ubc_municipios">
+		<field name="id">266</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Lobatera</field>
+		<field name="ciudad">Lobatera</field>
+	</record>
+	<record id="umu_267" model="ubc_municipios">
+		<field name="id">267</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Michelena</field>
+		<field name="ciudad">Michelena</field>
+	</record>
+	<record id="umu_268" model="ubc_municipios">
+		<field name="id">268</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Panamericano</field>
+		<field name="ciudad">Coloncito</field>
+	</record>
+	<record id="umu_269" model="ubc_municipios">
+		<field name="id">269</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Pedro María Ureña</field>
+		<field name="ciudad">Ureña</field>
+	</record>
+	<record id="umu_270" model="ubc_municipios">
+		<field name="id">270</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Rafael Urdaneta</field>
+		<field name="ciudad">Delicias</field>
+	</record>
+	<record id="umu_271" model="ubc_municipios">
+		<field name="id">271</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">22</field>
+		<field name="nombre">Samuel Darío Maldonado</field>
+		<field name="ciudad">LaTendida</field>
+	</record>
+	<record id="umu_272" model="ubc_municipios">
+		<field name="id">272</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">23</field>
+		<field name="nombre">San Cristóbal</field>
+		<field name="ciudad">SanCristóbal</field>
+	</record>
+	<record id="umu_273" model="ubc_municipios">
+		<field name="id">273</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">24</field>
+		<field name="nombre">Seboruco</field>
+		<field name="ciudad">Seboruco</field>
+	</record>
+	<record id="umu_274" model="ubc_municipios">
+		<field name="id">274</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">25</field>
+		<field name="nombre">Simón Rodríguez</field>
+		<field name="ciudad">SanSimón</field>
+	</record>
+	<record id="umu_275" model="ubc_municipios">
+		<field name="id">275</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">26</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Queniquea</field>
+	</record>
+	<record id="umu_276" model="ubc_municipios">
+		<field name="id">276</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">27</field>
+		<field name="nombre">Torbes</field>
+		<field name="ciudad">SanJosecito</field>
+	</record>
+	<record id="umu_277" model="ubc_municipios">
+		<field name="id">277</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">28</field>
+		<field name="nombre">Uribante</field>
+		<field name="ciudad">Pregonero</field>
+	</record>
+	<record id="umu_278" model="ubc_municipios">
+		<field name="id">278</field>
+		<field name="estado_id">20</field>
+		<field name="codigo">29</field>
+		<field name="nombre">San Judas Tadeo</field>
+		<field name="ciudad">Umuquena</field>
+	</record>
+	<record id="umu_279" model="ubc_municipios">
+		<field name="id">279</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Andrés Bello</field>
+		<field name="ciudad">SantaIsabel</field>
+	</record>
+	<record id="umu_280" model="ubc_municipios">
+		<field name="id">280</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Boconó</field>
+		<field name="ciudad">Boconó</field>
+	</record>
+	<record id="umu_281" model="ubc_municipios">
+		<field name="id">281</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">SabanaGrande</field>
+	</record>
+	<record id="umu_282" model="ubc_municipios">
+		<field name="id">282</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Candelaria</field>
+		<field name="ciudad">Chejendé</field>
+	</record>
+	<record id="umu_283" model="ubc_municipios">
+		<field name="id">283</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Carache</field>
+		<field name="ciudad">Carache</field>
+	</record>
+	<record id="umu_284" model="ubc_municipios">
+		<field name="id">284</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Escuque</field>
+		<field name="ciudad">Escuque</field>
+	</record>
+	<record id="umu_285" model="ubc_municipios">
+		<field name="id">285</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">7</field>
+		<field name="nombre">José Felipe Márquez Cañizales</field>
+		<field name="ciudad">ElParadero</field>
+	</record>
+	<record id="umu_286" model="ubc_municipios">
+		<field name="id">286</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Juan Vicente Campo Elías</field>
+		<field name="ciudad">CampoElías</field>
+	</record>
+	<record id="umu_287" model="ubc_municipios">
+		<field name="id">287</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">9</field>
+		<field name="nombre">La Ceiba</field>
+		<field name="ciudad">SantaApolonia</field>
+	</record>
+	<record id="umu_288" model="ubc_municipios">
+		<field name="id">288</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Miranda</field>
+		<field name="ciudad">ElDividive</field>
+	</record>
+	<record id="umu_289" model="ubc_municipios">
+		<field name="id">289</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Monte Carmelo</field>
+		<field name="ciudad">MonteCarmelo</field>
+	</record>
+	<record id="umu_290" model="ubc_municipios">
+		<field name="id">290</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Motatán</field>
+		<field name="ciudad">Motatán</field>
+	</record>
+	<record id="umu_291" model="ubc_municipios">
+		<field name="id">291</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Pampán</field>
+		<field name="ciudad">Pampán</field>
+	</record>
+	<record id="umu_292" model="ubc_municipios">
+		<field name="id">292</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Pampanito</field>
+		<field name="ciudad">Pampanito</field>
+	</record>
+	<record id="umu_293" model="ubc_municipios">
+		<field name="id">293</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Rafael Rangel</field>
+		<field name="ciudad">Betijoque</field>
+	</record>
+	<record id="umu_294" model="ubc_municipios">
+		<field name="id">294</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">16</field>
+		<field name="nombre">San Rafael de Carvajal</field>
+		<field name="ciudad">Carvajal</field>
+	</record>
+	<record id="umu_295" model="ubc_municipios">
+		<field name="id">295</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">17</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">SabanadeMendoza</field>
+	</record>
+	<record id="umu_296" model="ubc_municipios">
+		<field name="id">296</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Trujillo</field>
+		<field name="ciudad">Trujillo</field>
+	</record>
+	<record id="umu_297" model="ubc_municipios">
+		<field name="id">297</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Urdaneta</field>
+		<field name="ciudad">LaQuebrada</field>
+	</record>
+	<record id="umu_298" model="ubc_municipios">
+		<field name="id">298</field>
+		<field name="estado_id">21</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Valera</field>
+		<field name="ciudad">Valera</field>
+	</record>
+	<record id="umu_299" model="ubc_municipios">
+		<field name="id">299</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Arístides Bastidas</field>
+		<field name="ciudad">SanPablo</field>
+	</record>
+	<record id="umu_300" model="ubc_municipios">
+		<field name="id">300</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Bolívar</field>
+		<field name="ciudad">Aroa</field>
+	</record>
+	<record id="umu_301" model="ubc_municipios">
+		<field name="id">301</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Bruzual</field>
+		<field name="ciudad">Chivacoa</field>
+	</record>
+	<record id="umu_302" model="ubc_municipios">
+		<field name="id">302</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Cocorote</field>
+		<field name="ciudad">Cocorote</field>
+	</record>
+	<record id="umu_303" model="ubc_municipios">
+		<field name="id">303</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Independencia</field>
+		<field name="ciudad">Independencia</field>
+	</record>
+	<record id="umu_304" model="ubc_municipios">
+		<field name="id">304</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">6</field>
+		<field name="nombre">José Antonio Páez</field>
+		<field name="ciudad">SabanadeParra</field>
+	</record>
+	<record id="umu_305" model="ubc_municipios">
+		<field name="id">305</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">7</field>
+		<field name="nombre">La Trinidad</field>
+		<field name="ciudad">Boraure</field>
+	</record>
+	<record id="umu_306" model="ubc_municipios">
+		<field name="id">306</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Manuel Monge</field>
+		<field name="ciudad">Yumare</field>
+	</record>
+	<record id="umu_307" model="ubc_municipios">
+		<field name="id">307</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">9</field>
+		<field name="nombre">Nirgua</field>
+		<field name="ciudad">Nirgua</field>
+	</record>
+	<record id="umu_308" model="ubc_municipios">
+		<field name="id">308</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Peña</field>
+		<field name="ciudad">Yaritagua</field>
+	</record>
+	<record id="umu_309" model="ubc_municipios">
+		<field name="id">309</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">11</field>
+		<field name="nombre">San Felipe</field>
+		<field name="ciudad">SanFelipe</field>
+	</record>
+	<record id="umu_310" model="ubc_municipios">
+		<field name="id">310</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Guama</field>
+	</record>
+	<record id="umu_311" model="ubc_municipios">
+		<field name="id">311</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Urachiche</field>
+		<field name="ciudad">Urachiche</field>
+	</record>
+	<record id="umu_312" model="ubc_municipios">
+		<field name="id">312</field>
+		<field name="estado_id">22</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Veroes</field>
+		<field name="ciudad">Farriar</field>
+	</record>
+	<record id="umu_313" model="ubc_municipios">
+		<field name="id">313</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Almirante Padilla</field>
+		<field name="ciudad">ElToro</field>
+	</record>
+	<record id="umu_314" model="ubc_municipios">
+		<field name="id">314</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">2</field>
+		<field name="nombre">Baralt</field>
+		<field name="ciudad">SanTimoteo</field>
+	</record>
+	<record id="umu_315" model="ubc_municipios">
+		<field name="id">315</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">3</field>
+		<field name="nombre">Cabimas</field>
+		<field name="ciudad">Cabimas</field>
+	</record>
+	<record id="umu_316" model="ubc_municipios">
+		<field name="id">316</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">4</field>
+		<field name="nombre">Catatumbo</field>
+		<field name="ciudad">Encontrados</field>
+	</record>
+	<record id="umu_317" model="ubc_municipios">
+		<field name="id">317</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">5</field>
+		<field name="nombre">Colón</field>
+		<field name="ciudad">SanCarlosdelZulia</field>
+	</record>
+	<record id="umu_318" model="ubc_municipios">
+		<field name="id">318</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">6</field>
+		<field name="nombre">Francisco Javier Pulgar</field>
+		<field name="ciudad">PuebloNuevoElChivo</field>
+	</record>
+	<record id="umu_319" model="ubc_municipios">
+		<field name="id">319</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">7</field>
+		<field name="nombre">Jesús Enrique Lossada</field>
+		<field name="ciudad">LaConcepción</field>
+	</record>
+	<record id="umu_320" model="ubc_municipios">
+		<field name="id">320</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">8</field>
+		<field name="nombre">Jesús María Semprún</field>
+		<field name="ciudad">CasiguaElCubo</field>
+	</record>
+	<record id="umu_321" model="ubc_municipios">
+		<field name="id">321</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">9</field>
+		<field name="nombre">La Cañada de Urdaneta</field>
+		<field name="ciudad">Concepción</field>
+	</record>
+	<record id="umu_322" model="ubc_municipios">
+		<field name="id">322</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">10</field>
+		<field name="nombre">Lagunillas</field>
+		<field name="ciudad">CiudadOjeda</field>
+	</record>
+	<record id="umu_323" model="ubc_municipios">
+		<field name="id">323</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">11</field>
+		<field name="nombre">Machiques de Perijá</field>
+		<field name="ciudad">Machiques</field>
+	</record>
+	<record id="umu_324" model="ubc_municipios">
+		<field name="id">324</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">12</field>
+		<field name="nombre">Mara</field>
+		<field name="ciudad">SanRafaeldeElMoján</field>
+	</record>
+	<record id="umu_325" model="ubc_municipios">
+		<field name="id">325</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">13</field>
+		<field name="nombre">Maracaibo</field>
+		<field name="ciudad">Maracaibo</field>
+	</record>
+	<record id="umu_326" model="ubc_municipios">
+		<field name="id">326</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">14</field>
+		<field name="nombre">Miranda</field>
+		<field name="ciudad">LosPuertosdeAltagracia</field>
+	</record>
+	<record id="umu_327" model="ubc_municipios">
+		<field name="id">327</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">15</field>
+		<field name="nombre">Páez</field>
+		<field name="ciudad">Sinamaica</field>
+	</record>
+	<record id="umu_328" model="ubc_municipios">
+		<field name="id">328</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">16</field>
+		<field name="nombre">Rosario de Perijá</field>
+		<field name="ciudad">LaVilladelRosario</field>
+	</record>
+	<record id="umu_329" model="ubc_municipios">
+		<field name="id">329</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">17</field>
+		<field name="nombre">San Francisco</field>
+		<field name="ciudad">SanFrancisco</field>
+	</record>
+	<record id="umu_330" model="ubc_municipios">
+		<field name="id">330</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">18</field>
+		<field name="nombre">Santa Rita</field>
+		<field name="ciudad">SantaRita</field>
+	</record>
+	<record id="umu_331" model="ubc_municipios">
+		<field name="id">331</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">19</field>
+		<field name="nombre">Simón Bolívar</field>
+		<field name="ciudad">TíaJuana</field>
+	</record>
+	<record id="umu_332" model="ubc_municipios">
+		<field name="id">332</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">20</field>
+		<field name="nombre">Sucre</field>
+		<field name="ciudad">Bobures</field>
+	</record>
+	<record id="umu_333" model="ubc_municipios">
+		<field name="id">333</field>
+		<field name="estado_id">23</field>
+		<field name="codigo">21</field>
+		<field name="nombre">Valmore Rodríguez</field>
+		<field name="ciudad">Bachaquero</field>
+	</record>
+	<record id="umu_334" model="ubc_municipios">
+		<field name="id">334</field>
+		<field name="estado_id">24</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Vargas</field>
+		<field name="ciudad">LaGuaira</field>
+	</record>
+	<record id="umu_335" model="ubc_municipios">
+		<field name="id">335</field>
+		<field name="estado_id">25</field>
+		<field name="codigo">1</field>
+		<field name="nombre">Depencias Federales</field>
+		<field name="ciudad">Depencias Federales</field>
+	</record>
+</data>
+</openerp>

@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+<!-- Tabla Documentos -->
+    <record model="ir.ui.view" id="view_documento_form">
+        <field name="name">documento.form</field>
+        <field name="model">documento</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="documento">
+             <group col="2" colspan="2">
+                <field name="titulo" nolabel="1" placeholder='Título del Documento' select="0"/>
+            </group>
+             <group col="6" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="fecha_ela" select="2"/>
+                <field name="tipologia_id" select="3"/>
+                <field name="productor_id" select="4"/>
+                <field name="materia_id" select="5"/>
+                <field name="adjunto" select="6"/>
+            </group>
+            <group col="2" colspan="2">
+                <field name="descripcion" nolabel="1" placeholder='Descripción del Documento' select="0"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_documento_tree">
+        <field name="name">documento.tree</field>
+        <field name="model">documento</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="documento">
+                <field name="codigo"/>
+                <field name="titulo"/>
+                <field name="fecha_ela"/>
+                <field name="tipologia_id"/>
+                <field name="productor_id"/>
+                <field name="materia_id"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_documento">
+        <field name="name">Documentos</field>
+        <field name="res_model">documento</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">Haga Click para Registrar un Documento.</p>
+            <p>Los documentos administrativos son el soporte en el que se materializan los distintos actos de la Administración Pública.</p>
+        </field>
+    </record>
+
+<!-- Tabla Carpetas -->
+    <record model="ir.ui.view" id="view_carpeta_form">
+        <field name="name">carpeta.form</field>
+        <field name="model">carpeta</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="carpeta">
+            <group col="2" colspan="2">
+                <field name="nombre" nolabel="1" placeholder='Nombre de la Carpeta' select="0"/>
+            </group>
+            <group col="6" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="fecha_ini" select="2"/>
+                <field name="fecha_fin" select="3"/>
+            </group>
+            <group col="2" colspan="2">
+                <notebook>
+                    <page string="Documentos">
+                        <field name="documento_ids" colspan="4" nolabel="1"/>
+                    </page>
+                    <page string="Ubicación Topográfica">
+                        <group col="6" colspan="2">
+                            <field name="vagon_id" select="0"/>
+                            <field name="modulo_id" select="0" domain="[('vagon_id','=',vagon_id)]"/>
+                            <field name="peldano_id" select="0" domain="[('modulo_id','=',modulo_id)]"/>
+                            <field name="caja_id" select="0" domain="[('peldano_id','=',peldano_id)]"/>
+                        </group>
+                    </page>
+                    <page string="Ubicación Administrativa">
+                        <group col="4" colspan="2">
+                            <field name="organismo_id" select="0"/>
+                            <field name="gerencia_id" select="0" domain="[('organismo_id','=',organismo_id)]"/>
+                        </group>
+                    </page>
+                    <page string="Ubicación Geográfica">
+                        <group col="6" colspan="2">
+                            <field name="estado_id" select="0"/>
+                            <field name="municipio_id" select="0" domain="[('estado_id','=',estado_id)]"/>
+                            <field name="parroquia_id" select="0" domain="[('municipio_id','=',municipio_id)]"/>
+                        </group>
+                    </page>
+                    <page string="Área de Notas">
+                        <group col="2" colspan="2">
+                            <field name="descripcion" nolabel="1" placeholder='Descripción de la Capeta' select="0"/>
+                        </group>
+                    </page>
+                </notebook>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_carpeta_tree">
+        <field name="name">carpeta.tree</field>
+        <field name="model">carpeta</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="carpeta">
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="vagon_id"/>
+                <field name="modulo_id"/>
+                <field name="peldano_id"/>
+                <field name="caja_id"/>
+                <field name="fecha_ini"/>
+                <field name="fecha_fin"/>
+                <!--<field name="descripcion"/>-->
+            </tree>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_carpeta_calendar">
+        <field name="name">view_carpeta_calendar</field>
+        <field name="model">carpeta</field>
+        <field name="type">calendar</field>
+        <field eval="2" name="priority"/>
+        <field name="arch" type="xml">
+            <calendar color="id" date_start="fecha_ini" string="Carpetas">
+                <field name="codigo"/>
+                <field name="nombre"/>
+                <field name="vagon_id"/>
+                <field name="modulo_id"/>
+                <field name="peldano_id"/>
+                <field name="caja_id"/>
+                <field name="fecha_ini"/>
+                <field name="fecha_fin"/>
+                <field name="gerencia_id"/>
+                <!--<field name="descripcion"/>-->
+            </calendar>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_carpeta_kanban">
+        <field name="name">view_carpeta_kanban</field>
+        <field name="model">carpeta</field>
+        <field name="type">kanban</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="nombre"/>
+                <field name="create_date"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card">
+                            <div class="oe_kanban_content">
+                                <h4><a type="open">
+                                    <i class="fa fa-folder fa-3x"></i>
+                                    <field name="nombre"/>
+                                    </a></h4>
+                                    <ul>
+                                        <li><i class="fa fa-calendar-o"></i> Creación: <field name="create_date"/></li>
+                                        <li><i class="fa fa-stop"></i> Vagón: <field name="vagon_id"/></li>
+                                        <li><i class="fa fa-th"></i> Módulo: <field name="modulo_id"/></li>
+                                        <li><i class="fa fa-bars"></i> Peldaño: <field name="peldano_id"/></li>
+                                        <li><i class="fa fa-archive"></i> Caja: <field name="caja_id"/></li>
+                                    </ul>
+                                    <div class="oe_kanban_footer_left">
+                                        <i class="fa fa-barcode"></i>
+                                        <field name="codigo"/>
+                                        <i class="fa fa-calendar-o"></i>
+                                        <field name="fecha_ini"/>
+                                        <i class="fa fa-calendar-o"></i>
+                                        <field name="fecha_fin"/>
+                                    </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_mppp_proyectos_resumen_graph">
+        <field name="name">view_carpeta_graph</field>
+        <field name="model">carpeta</field>
+        <field name="arch" type="xml">
+            <graph string="Carpetas" type="bar">
+                <field name="codigo" type="row"/>
+            </graph>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_carpeta">
+        <field name="name">Carpetas</field>
+        <field name="res_model">carpeta</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,kanban,calendar,graph</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">Haga Click para Registrar una Carpeta.</p>
+            <p>Reunie, Ubica, Conserva y Asegura ordenadamente todos los documentos que circulan en la empresa.</p>
+        </field>
+    </record>
+
+<!-- Tabla Organismos -->
+    <record model="ir.ui.view" id="view_organismo_form">
+        <field name="name">organismo.form</field>
+        <field name="model">organismo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="organismo">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_organismo_tree">
+        <field name="name">organismo.tree</field>
+        <field name="model">organismo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="organismo">
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_organismo">
+        <field name="name">Organismos</field>
+        <field name="res_model">organismo</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Gerencias -->
+    <record model="ir.ui.view" id="view_gerencia_form">
+        <field name="name">gerencia.form</field>
+        <field name="model">gerencia</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="gerencia">
+            <group col="4" colspan="2">
+                <field name="organismo_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="3"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_gerencia_tree">
+        <field name="name">gerencia.tree</field>
+        <field name="model">gerencia</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="gerencia">
+                <field name="organismo_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_gerencia">
+        <field name="name">Gerencias</field>
+        <field name="res_model">gerencia</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Vagones -->
+    <record model="ir.ui.view" id="view_vagon_form">
+        <field name="name">vagon.form</field>
+        <field name="model">vagon</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="vagon">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_vagon_tree">
+        <field name="name">vagon.tree</field>
+        <field name="model">vagon</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="vagon">
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_vagon">
+        <field name="name">Vagones</field>
+        <field name="res_model">vagon</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Módulos -->
+    <record model="ir.ui.view" id="view_modulo_form">
+        <field name="name">modulo.form</field>
+        <field name="model">modulo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="modulo">
+            <group col="4" colspan="2">
+                <field name="vagon_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="3"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_modulo_tree">
+        <field name="name">modulo.tree</field>
+        <field name="model">modulo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="modulo">
+                <field name="vagon_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_modulo">
+        <field name="name">Módulo</field>
+        <field name="res_model">modulo</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Peldaño -->
+    <record model="ir.ui.view" id="view_peldano_form">
+        <field name="name">peldano.form</field>
+        <field name="model">peldano</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="peldano">
+            <group col="4" colspan="2">
+                <field name="modulo_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="3"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_peldano_tree">
+        <field name="name">peldano.tree</field>
+        <field name="model">peldano</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="peldano">
+                <field name="modulo_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_peldano">
+        <field name="name">Peldaño</field>
+        <field name="res_model">peldano</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Caja -->
+    <record model="ir.ui.view" id="view_caja_form">
+        <field name="name">caja.form</field>
+        <field name="model">caja</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="caja">
+            <group col="4" colspan="2">
+                <field name="peldano_id" select="1"/>
+                <field name="codigo" select="2"/>
+                <field name="nombre" select="3"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_caja_tree">
+        <field name="name">caja.tree</field>
+        <field name="model">caja</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="caja">
+                <field name="peldano_id"/>
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_caja">
+        <field name="name">Caja</field>
+        <field name="res_model">caja</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Productor(es) -->
+    <record model="ir.ui.view" id="view_productor_form">
+        <field name="name">productor.form</field>
+        <field name="model">productor</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="productor">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_productor_tree">
+        <field name="name">productor.tree</field>
+        <field name="model">productor</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="productor">
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_productor">
+        <field name="name">Productores</field>
+        <field name="res_model">productor</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Materias -->
+    <record model="ir.ui.view" id="view_materia_form">
+        <field name="name">materia.form</field>
+        <field name="model">materia</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="materia">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_materia_tree">
+        <field name="name">materia.tree</field>
+        <field name="model">materia</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="materia">
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_materia">
+        <field name="name">Materia</field>
+        <field name="res_model">materia</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+<!-- Tabla Tipología -->
+    <record model="ir.ui.view" id="view_tipologia_form">
+        <field name="name">tipologia.form</field>
+        <field name="model">tipologia</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="tipologia">
+            <group col="4" colspan="2">
+                <field name="codigo" select="1"/>
+                <field name="nombre" select="2"/>
+            </group>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_tipologia_tree">
+        <field name="name">tipologia.tree</field>
+        <field name="model">tipologia</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="tipologia">
+                <field name="codigo"/>
+                <field name="nombre"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_tipologia">
+        <field name="name">Tipología</field>
+        <field name="res_model">tipologia</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menú Principal -->
+<menuitem name="SGD" id="menu_prin"/>
+    <menuitem name="Registro" id="menu_reg" parent="menu_prin" sequence="0"/>
+        <menuitem name="Documentos" id="menu_documento" action="action_documento" parent="menu_reg"/>
+        <menuitem name="Carpetas" id="menu_carpeta" action="action_carpeta" parent="menu_reg"/>
+    <menuitem name="Configuración" id="menu_conf" parent="menu_prin" sequence="1"/>
+        <menuitem name="Vagones" id="menu_vagon" action="action_vagon" parent="menu_conf"/>
+        <menuitem name="Módulos" id="menu_modulo" action="action_modulo" parent="menu_conf"/>
+        <menuitem name="Peldaños" id="menu_peldano" action="action_peldano" parent="menu_conf"/>
+        <menuitem name="Cajas" id="menu_caja" action="action_caja" parent="menu_conf"/>
+        <menuitem name="Tipologías" id="menu_tipologia" action="action_tipologia" parent="menu_conf"/>
+        <menuitem name="Productores" id="menu_productor" action="action_productor" parent="menu_conf"/>
+        <menuitem name="Materias" id="menu_materia" action="action_materia" parent="menu_conf"/>
+        <menuitem name="Organismos" id="menu_organismo" action="action_organismo" parent="menu_conf"/>
+        <menuitem name="Gerencias" id="menu_gerencia" action="action_gerencia" parent="menu_conf"/>
+</data>
+</openerp>

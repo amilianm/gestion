@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creado por BachacoVE-->
+<!--Wednesday 2nd of December 2015 01:28:34 AM-->
+<openerp>
+<data>
+	<record id="con_1" model="ubc_continentes">
+		<field name="id">1</field>
+		<field name="codigo">002</field>
+		<field name="nombre">AFRICA</field>
+		<field name="descripcion">Continente Africano</field>
+	</record>
+	<record id="con_2" model="ubc_continentes">
+		<field name="id">2</field>
+		<field name="codigo">019</field>
+		<field name="nombre">AMERICA</field>
+		<field name="descripcion">Continente Americano</field>
+	</record>
+	<record id="con_3" model="ubc_continentes">
+		<field name="id">3</field>
+		<field name="codigo">142</field>
+		<field name="nombre">ASIA</field>
+		<field name="descripcion">Continente Asiático</field>
+	</record>
+	<record id="con_4" model="ubc_continentes">
+		<field name="id">4</field>
+		<field name="codigo">150</field>
+		<field name="nombre">EUROPA</field>
+		<field name="descripcion">Continente Europeo</field>
+	</record>
+	<record id="con_5" model="ubc_continentes">
+		<field name="id">5</field>
+		<field name="codigo">009</field>
+		<field name="nombre">OCEANIA</field>
+		<field name="descripcion">Continente Oceánico</field>
+	</record>
+</data>
+</openerp>
